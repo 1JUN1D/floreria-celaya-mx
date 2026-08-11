@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Girasoles y tulipanes frescos en Celaya. Ramo de girasoles con rosas $750, caja de girasoles con globo burbuja $1,625 y arreglo de 15 tulipanes $2,250. Entrega el mismo día con Florería Andrea.">
+    <meta name="keywords" content="girasoles Celaya, ramo de girasoles a domicilio, tulipanes en Celaya, caja de girasoles con globo, arreglo de tulipanes Guanajuato">
+    <title>Girasoles y Tulipanes Frescos en Celaya | Florería Andrea</title>
+
+    <meta property="og:title" content="Girasoles y Tulipanes Frescos en Celaya">
+    <meta property="og:description" content="Girasoles y tulipanes frescos en Celaya. Ramo de girasoles con rosas $750, caja de girasoles con globo burbuja $1,625 y arreglo de 15 tulipanes $2,250. Entrega el mismo día con Florería Andrea.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://floreriacelaya.dondeseria.com/landing/girasoles-tulipanes">
+    <meta property="og:image" content="http://floreriacelaya.dondeseria.com/assets/logo.webp">
+    <link rel="canonical" href="http://floreriacelaya.dondeseria.com/landing/girasoles-tulipanes">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18373333007"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18373333007');
+</script>
+<!-- Event snippet for conversion -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18373333007/_XLvCPGTxNwcEI-gi7lE',
+        'value': 1.0,
+        'currency': 'MXN',
+        'event_callback': callback
+    });
+    return false;
+  }
+  // Dispara la conversión en cualquier clic a WhatsApp de la landing
+  // (tarjetas de producto, navbar, botón flotante y sección de contacto)
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href*="api.whatsapp.com"]');
+    if (a) {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18373333007/_XLvCPGTxNwcEI-gi7lE',
+        'value': 1.0,
+        'currency': 'MXN'
+      });
+    }
+  });
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="icon" type="image/png" href="/assets/logo.webp">
+    <style>
+        .landing-intro { padding: 3.5rem 0 1rem; }
+        .landing-intro .container { max-width: 900px; }
+        .landing-intro h2 { font-family:'Playfair Display',serif; font-size:2rem; color:#16121C; margin-bottom:1rem; text-align:center; }
+        .landing-intro p { color:#555; line-height:1.9; margin-bottom:1.1rem; font-size:1.02rem; }
+    </style>
+</head>
+<body data-initial-filter="todos">
+    <div id="navbar-container"></div>
+
+    <section class="catalog-hero">
+        <div class="container">
+            <h1>Girasoles y Tulipanes Frescos en Celaya</h1>
+            <p>Flores que levantan el ánimo: girasoles grandes y luminosos junto a tulipanes finos para alegrarle el día a quien tú quieras.</p>
+        </div>
+    </section>
+
+    <section class="catalog-filters">
+        <div class="container">
+            <div class="catalog-search">
+                <input type="search" id="product-search" placeholder="Buscar por nombre o código (ej. rosas o 014)" aria-label="Buscar producto por nombre o código">
+            </div>
+            <div class="filters-container">
+                <span class="filter-label">Filtrar por:</span>
+                <button class="filter-btn active" data-filter="todos">Todos los Productos</button>
+                <button class="filter-btn" data-filter="funebre">Coronas y Fúnebre</button>
+                <button class="filter-btn" data-filter="girasoles">Girasoles</button>
+                <button class="filter-btn" data-filter="rosas-rojas">Rosas Rojas</button>
+                <button class="filter-btn" data-filter="tulipanes">Tulipanes</button>
+                <button class="filter-btn" data-filter="chocolates">Flores y Chocolates</button>
+                <button class="filter-btn" data-filter="cajas">Cajas y Canastas</button>
+                <button class="filter-btn" data-filter="mix">Ramos Mix</button>
+                <button class="filter-btn" data-filter="precio-bajo">Menos de $600</button>
+                <button class="filter-btn" data-filter="precio-medio">$600 a $1,500</button>
+                <button class="filter-btn" data-filter="precio-alto">Más de $1,500</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="results-counter">
+        <div class="container">
+            Mostrando <strong id="results-count">33</strong> productos
+        </div>
+    </div>
+
+    <section class="catalog-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid"></div>
+            <div class="empty-state" id="empty-state">
+                <h3>No se encontraron productos</h3>
+                <p>Modifica el filtro y te mostraremos más diseños.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-intro">
+        <div class="container">
+            <h2>Color Que Se Contagia</h2>
+            <p>El girasol es puro ánimo y el tulipán pone la nota elegante. En Florería Andrea los trabajamos con follaje fresco y envolturas bien cuidadas: el ramo de girasoles con rosas queda en $750, la caja de girasoles con globo burbuja en $1,625, el corazón de 13 girasoles en $2,813 y la corona con girasoles en $2,250.</p>
+            <p>Nuestros girasoles vienen de productores del Bajío y de Morelos; el tulipán es flor de importación y solo lo tenemos por temporada, así que el arreglo de 15 tulipanes de $2,250 conviene apartarlo con días de anticipación. Escríbenos al WhatsApp +52 1 461 504 8418, te confirmamos qué hay disponible hoy y lo llevamos a tu colonia en Celaya.</p>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-price"></p>
+            </div>
+        </div>
+    </div>
+
+    <button class="scroll-top" id="scroll-top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <div id="service-areas-container"></div>
+    <div id="contact-info-container"></div>
+    <div id="footer-container"></div>
+    <div id="whatsapp-button-container"></div>
+
+    <script src="/js/landing-catalog.js"></script>
+</body>
+</html>

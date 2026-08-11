@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flores para cumpleaños en Celaya: ramos con globo, cajas de girasoles y arreglos con chocolates, hechos el mismo día. Ramo de gerberas desde $375 y entrega en toda la ciudad. Pide por WhatsApp en Florería Andrea.">
+    <meta name="keywords" content="flores de cumpleaños Celaya, ramo con globo Celaya, arreglos con chocolates, regalo de cumpleaños a domicilio, florería Celaya Guanajuato">
+    <title>Flores y Arreglos de Cumpleaños en Celaya | Florería Andrea</title>
+
+    <meta property="og:title" content="Flores y Arreglos de Cumpleaños en Celaya">
+    <meta property="og:description" content="Flores para cumpleaños en Celaya: ramos con globo, cajas de girasoles y arreglos con chocolates, hechos el mismo día. Ramo de gerberas desde $375 y entrega en toda la ciudad. Pide por WhatsApp en Florería Andrea.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://floreriacelaya.dondeseria.com/landing/cumpleanos">
+    <meta property="og:image" content="http://floreriacelaya.dondeseria.com/assets/logo.webp">
+    <link rel="canonical" href="http://floreriacelaya.dondeseria.com/landing/cumpleanos">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18373333007"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18373333007');
+</script>
+<!-- Event snippet for conversion -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18373333007/_XLvCPGTxNwcEI-gi7lE',
+        'value': 1.0,
+        'currency': 'MXN',
+        'event_callback': callback
+    });
+    return false;
+  }
+  // Dispara la conversión en cualquier clic a WhatsApp de la landing
+  // (tarjetas de producto, navbar, botón flotante y sección de contacto)
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href*="api.whatsapp.com"]');
+    if (a) {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18373333007/_XLvCPGTxNwcEI-gi7lE',
+        'value': 1.0,
+        'currency': 'MXN'
+      });
+    }
+  });
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="icon" type="image/png" href="/assets/logo.webp">
+    <style>
+        .landing-intro { padding: 3.5rem 0 1rem; }
+        .landing-intro .container { max-width: 900px; }
+        .landing-intro h2 { font-family:'Playfair Display',serif; font-size:2rem; color:#16121C; margin-bottom:1rem; text-align:center; }
+        .landing-intro p { color:#555; line-height:1.9; margin-bottom:1.1rem; font-size:1.02rem; }
+    </style>
+</head>
+<body data-initial-filter="todos">
+    <div id="navbar-container"></div>
+
+    <section class="catalog-hero">
+        <div class="container">
+            <h1>Flores y Arreglos de Cumpleaños en Celaya</h1>
+            <p>Ramos, cajas y sorpresas llenas de color para consentir a quien cumple años y volverle el día algo inolvidable.</p>
+        </div>
+    </section>
+
+    <section class="catalog-filters">
+        <div class="container">
+            <div class="catalog-search">
+                <input type="search" id="product-search" placeholder="Buscar por nombre o código (ej. rosas o 014)" aria-label="Buscar producto por nombre o código">
+            </div>
+            <div class="filters-container">
+                <span class="filter-label">Filtrar por:</span>
+                <button class="filter-btn active" data-filter="todos">Todos los Productos</button>
+                <button class="filter-btn" data-filter="funebre">Coronas y Fúnebre</button>
+                <button class="filter-btn" data-filter="girasoles">Girasoles</button>
+                <button class="filter-btn" data-filter="rosas-rojas">Rosas Rojas</button>
+                <button class="filter-btn" data-filter="tulipanes">Tulipanes</button>
+                <button class="filter-btn" data-filter="chocolates">Flores y Chocolates</button>
+                <button class="filter-btn" data-filter="cajas">Cajas y Canastas</button>
+                <button class="filter-btn" data-filter="mix">Ramos Mix</button>
+                <button class="filter-btn" data-filter="precio-bajo">Menos de $600</button>
+                <button class="filter-btn" data-filter="precio-medio">$600 a $1,500</button>
+                <button class="filter-btn" data-filter="precio-alto">Más de $1,500</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="results-counter">
+        <div class="container">
+            Mostrando <strong id="results-count">33</strong> productos
+        </div>
+    </div>
+
+    <section class="catalog-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid"></div>
+            <div class="empty-state" id="empty-state">
+                <h3>No se encontraron productos</h3>
+                <p>Ajusta el filtro y verás más arreglos disponibles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-intro">
+        <div class="container">
+            <h2>Un Cumpleaños Que Se Recuerda</h2>
+            <p>Un cumpleaños se recuerda por los detalles, y pocas cosas dicen tanto como unas flores que llegan sin que nadie las espere. En Florería Andrea mezclamos gerberas, rosas y girasoles en tonos vivos, papel festivo y extras como globo burbuja o chocolates: desde un ramo de gerberas de $375 hasta una caja de girasoles con globo de $1,625.</p>
+            <p>Programamos la entrega a la hora que tú nos digas, en la casa, en la oficina o donde esté la fiesta, sea en Zona de Oro, Alameda, Del Parque o cualquier otra colonia de Celaya. Si nos escribes al WhatsApp +52 1 461 504 8418 antes de las 2:00 PM lo entregamos ese mismo día, y siempre te mandamos la foto del arreglo antes de que salga.</p>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-price"></p>
+            </div>
+        </div>
+    </div>
+
+    <button class="scroll-top" id="scroll-top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <div id="service-areas-container"></div>
+    <div id="contact-info-container"></div>
+    <div id="footer-container"></div>
+    <div id="whatsapp-button-container"></div>
+
+    <script src="/js/landing-catalog.js"></script>
+</body>
+</html>
