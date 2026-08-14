@@ -233,12 +233,12 @@ const products = [
 {
     "id": 21,
     "name": "Alegría de Bolsillo",
-    "price": 375,
+    "price": 750,
     "image": "assets/foto22.webp",
-    "description": "Ramo de gerberas en rosa claro y fucsia, con statice, nube y hoja verde, en envoltura blanca con papel fucsia y detalles de fresas. Toda la flor va abierta y de frente: no necesita nada más para llamar la atención de quien entra al cuarto.<br><br>Por menos de cuatrocientos pesos se ve como un ramo de mil, porque la gerbera tiene la cabeza grande y llena mucho espacio visual. El detalle perfecto para un cumpleaños, para el 10 de mayo o para alegrarle el día a alguien sin descuadrar la quincena.",
+    "description": "Ramo de gerberas en rosa claro y fucsia, con statice, nube y hoja verde, en envoltura blanca con papel fucsia y detalles de fresas. Toda la flor va abierta y de frente: no necesita nada más para llamar la atención de quien entra al cuarto.<br><br>Por menos de ochocientos pesos se ve como un ramo de mil quinientos, porque la gerbera tiene la cabeza grande y llena mucho espacio visual. El detalle perfecto para un cumpleaños, para el 10 de mayo o para alegrarle el día a alguien sin descuadrar la quincena.",
     "categories": [
         "mix",
-        "precio-bajo"
+        "precio-medio"
     ]
 },
 {
