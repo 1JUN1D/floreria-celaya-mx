@@ -1173,12 +1173,38 @@
                                 "empresarial"
                         ],
                         "description": "Corona armada exclusivamente con rosas blancas, colocadas una por una sobre base de nube, nardo y follaje verde. Puras rosas es el nivel más alto que existe en corona fúnebre: no lleva relleno, y eso se distingue desde la entrada de la sala.<br><br>Es la que se manda cuando el homenaje representa a una institución, una empresa o una dependencia, y el gesto tiene que estar a la altura del cargo o del cariño. Incluye listón impreso con el nombre de la empresa, la dependencia o la familia que la envía."
+                },
+                {
+                        "id": 49,
+                        "code": "049",
+                        "name": "Corona Mediana en Tonos Rosa",
+                        "price": 2250,
+                        "image": "/assets/foto50.webp",
+                        "categories": [
+                                "coronas",
+                                "personalizado"
+                        ],
+                        "description": "Corona mediana en tripié sobre follaje de palma, con aro de crisantemos blancos y crema, y copetes de lirios rosas, gerberas fucsia, rosas blancas y palo de rosa, perritos y nube arriba y abajo. Cruza el listón negro con letra dorada donde va el nombre de quien la envía.<br><br>Los tonos rosa la hacen la corona que se manda para una mujer —mamá, abuela, esposa, hija— cuando el blanco solo se siente demasiado frío para quien fue. Va montada y lista para exhibirse. Escríbenos el nombre de la funeraria, la hora y el texto del listón, y la entregamos donde se esté velando en Celaya."
+                },
+                {
+                        "id": 50,
+                        "code": "050",
+                        "name": "Cubre Caja Fúnebre",
+                        "price": 625,
+                        "image": "/assets/foto51.webp",
+                        "categories": [
+                                "base",
+                                "girasoles",
+                                "personalizado"
+                        ],
+                        "description": "Arreglo alargado que se coloca encima del féretro, con girasoles, lirios blancos abiertos, crisantemos, rosas rojas y blancas, perritos, hypericum y solidago sobre follaje verde, cruzado por un listón impreso con el texto que tú elijas. Se monta directo sobre la tapa y cubre a lo largo.<br><br>Es lo que la familia ve durante todo el velorio y lo que sale en cada foto, y aun así cuesta una fracción de lo que cuesta una corona. Los girasoles le dan calidez y lo alejan de la despedida solemne de siempre. Lo entregamos el mismo día en funerarias y capillas de Celaya; mándanos el texto del listón por WhatsApp."
                 }
         ];
 
         function formatPrice(price) {
             if (price === null || price === undefined || isNaN(price)) return 'Consultar';
-            return '$' + price.toLocaleString('es-MX');
+            const dec = (price % 1 !== 0) ? 2 : 0;
+            return '$' + price.toLocaleString('es-MX', { minimumFractionDigits: dec, maximumFractionDigits: 2 });
         }
 
         function renderProducts(filter = 'todos') {
