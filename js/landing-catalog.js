@@ -4,7 +4,7 @@ const products = [
     "name": "Su Vida en Colores",
     "price": 2500,
     "image": "assets/foto2.webp",
-    "description": "Cuando la familia entra a la sala, lo primero que ven es esta corona: un aro completo montado sobre follaje de palma y hoja verde, con girasoles, gerberas rojas, crisantemos blancos y lirios repartidos en todo el contorno. No es una pieza apagada, es la vida de quien se fue contada en color.<br><br>Llega armada en tripié, lista para exhibirse, e incluye listón con la dedicatoria que tú nos dictes. La entregamos directo en la funeraria, la iglesia o el panteón de Celaya a la hora que la familia indique. Acompaña sin tener que decir una sola palabra.",
+    "description": "Cuando la familia entra a la sala, lo primero que ven es esta corona: un aro completo montado sobre follaje de palma y hoja verde, con girasoles, gerberas rojas, crisantemos blancos y lirios repartidos en todo el contorno. No es una pieza apagada, es la vida de quien se fue contada en color.",
     "categories": [
         "funebre",
         "mix",
@@ -16,7 +16,7 @@ const products = [
     "name": "Paz Absoluta",
     "price": 2500,
     "image": "assets/foto3.webp",
-    "description": "Corona grande en tripié, toda en blanco: lirios abiertos en el copete, gerberas, crisantemos y nardo sobre una base de follaje fino. El blanco completo es lo que se espera en una despedida formal y nunca queda fuera de lugar, sin importar quién más esté en la sala.<br><br>Mide para imponerse sin gritar y va con listón de dedicatoria escrito a mano. Coordinamos la entrega en velorios, capillas y templos de Celaya el mismo día en que nos escribas. Cuando no sabes qué mandar y no te puedes equivocar, esta es la respuesta segura.",
+    "description": "Corona grande en tripié, toda en blanco: lirios abiertos en el copete, gerberas, crisantemos y nardo sobre una base de follaje fino. El blanco completo es lo que se espera en una despedida formal y nunca queda fuera de lugar, sin importar quién más esté en la sala.",
     "categories": [
         "funebre",
         "mix",
@@ -28,7 +28,7 @@ const products = [
     "name": "Conversación a la Altura",
     "price": 225,
     "image": "assets/foto4.webp",
-    "description": "Centros de mesa redondos en tonos pastel, con claveles, gerberas, lisianthus, crisantemos y eucalipto, montados a baja altura para que tus invitados se vean la cara de un lado a otro de la mesa. Un centro alto se ve bonito en la foto y arruina la plática toda la noche; este hace exactamente lo contrario.<br><br>Los armamos en la combinación de color que lleve tu evento y en la cantidad exacta que necesites: el precio es por pieza, así que puedes pedir desde diez para una comida familiar hasta cincuenta para un salón completo. Aparta los tuyos por WhatsApp y nosotros calculamos cuántos necesitas según el número de mesas.",
+    "description": "Centros de mesa redondos en tonos pastel, con claveles, gerberas, lisianthus, crisantemos y eucalipto, montados a baja altura para que tus invitados se vean la cara de un lado a otro de la mesa. Un centro alto se ve bonito en la foto y arruina la plática toda la noche; este hace exactamente lo contrario.",
     "categories": [
         "mix",
         "precio-bajo"
@@ -39,7 +39,7 @@ const products = [
     "name": "Abre Durante la Fiesta",
     "price": 250,
     "image": "assets/foto5.webp",
-    "description": "Centro de mesa compacto con rosas rosas y blancas, lirios todavía en botón y espigas de statice morado entre follaje verde. Los lirios van cerrados a propósito: abren durante el evento, frente a los invitados, y siguen luciendo varios días después en casa de quien se lo lleve.<br><br>Es la opción de bajo costo que no parece de bajo costo, ideal cuando necesitas varias piezas iguales sin disparar el presupuesto. Perfecto para comidas, bautizos, primeras comuniones y mesas de honor. Pídelos por pieza y elige el tono según el mantel que vayas a usar.",
+    "description": "Centro de mesa compacto con rosas rosas y blancas, lirios todavía en botón y espigas de statice morado entre follaje verde. Los lirios van cerrados a propósito: abren durante el evento, frente a los invitados, y siguen luciendo varios días después en casa de quien se lo lleve.",
     "categories": [
         "mix",
         "precio-bajo"
@@ -50,7 +50,7 @@ const products = [
     "name": "Un Ramo Para Abrazar",
     "price": 750,
     "image": "assets/foto6.webp",
-    "description": "Treinta y seis rosas entre rojas y rosas, acomodadas en domo cerrado sobre nubes de gypsophila y envueltas en papel rojo en capas. Tres docenas se sienten en las manos: no es un ramo que se sostiene, es un ramo que hay que abrazar para poder cargarlo.<br><br>Ese peso es justo el mensaje —quien lo recibe entiende de inmediato que no fue un detalle de último minuto— y aun así cuesta la mitad que un arreglo grande. Regálalo en aniversarios, pedidas de mano y en esos días en que un detalle chico simplemente no alcanza.",
+    "description": "Treinta y seis rosas entre rojas y rosas, acomodadas en domo cerrado sobre nubes de gypsophila y envueltas en papel rojo en capas. Tres docenas se sienten en las manos: no es un ramo que se sostiene, es un ramo que hay que abrazar para poder cargarlo.",
     "categories": [
         "rosas-rojas",
         "precio-medio"
@@ -61,7 +61,7 @@ const products = [
     "name": "No Es de Todos los Días",
     "price": 2250,
     "image": "assets/foto7.webp",
-    "description": "Quince tulipanes amarillos y rosas montados en abanico, acompañados de girasoles, lirios orientales, nardo blanco y helecho sobre base baja. El tulipán no se consigue en cualquier esquina de Celaya: es flor de importación y de temporada, y quien lo recibe lo nota antes de leer la tarjeta.<br><br>Justo por eso se pide con anticipación, porque apartamos la flor para asegurarte el color. Sorprende con él en cumpleaños importantes, en el 10 de mayo o cuando quieras salirte por completo de lo que todos regalan. Escríbenos con unos días de margen y te confirmamos disponibilidad.",
+    "description": "Quince tulipanes amarillos y rosas montados en abanico, acompañados de girasoles, lirios orientales, nardo blanco y helecho sobre base baja. El tulipán no se consigue en cualquier esquina de Celaya: es flor de importación y de temporada, y quien lo recibe lo nota antes de leer la tarjeta.",
     "categories": [
         "tulipanes",
         "mix",
@@ -71,9 +71,9 @@ const products = [
 {
     "id": 7,
     "name": "Sin Medias Tintas",
-    "price": 2000,
+    "price": 1750,
     "image": "assets/foto8.webp",
-    "description": "Setenta y dos flores entre rosas rojas y claveles blancos, montadas al ras en un domo perfecto sobre papel negro mate. El contraste del rojo y el blanco sobre el negro hace que se vea el doble de grande de lo que ya es, y ya es enorme.<br><br>Seis docenas es una declaración que no admite interpretación: se entiende al abrir la puerta, sin que tengas que explicar nada. Consérvalo para aniversarios de años, reconciliaciones serias y propuestas que solo se hacen una vez. Aparta el tuyo por WhatsApp y te mandamos la foto del ramo antes de que salga.",
+    "description": "Setenta y dos flores entre rosas rojas y claveles blancos, montadas al ras en un domo perfecto sobre papel negro mate. El contraste del rojo y el blanco sobre el negro hace que se vea el doble de grande de lo que ya es, y ya es enorme.",
     "categories": [
         "rosas-rojas",
         "precio-alto"
@@ -82,9 +82,9 @@ const products = [
 {
     "id": 8,
     "name": "Sin Florero, Sin Pretextos",
-    "price": 1000,
+    "price": 750,
     "image": "assets/foto9.webp",
-    "description": "Arreglo vertical con una torre de rosas rojas al centro, gerberas de colores, lirios amarillos, alstroemerias rosas y nardo abriéndose hacia los lados. Llega parado en su propia base: quien lo recibe no tiene que buscar florero, cortar tallos ni resolver nada.<br><br>Esa comodidad es la mitad del regalo, sobre todo cuando lo mandas a una oficina o a alguien que anda a las carreras. Funciona igual de bien en una recámara, en un mostrador o en un escritorio, y se sostiene solo durante días. Envíalo hoy mismo y nosotros nos encargamos de que llegue de pie.",
+    "description": "Arreglo vertical con una torre de rosas rojas al centro, gerberas de colores, lirios amarillos, alstroemerias rosas y nardo abriéndose hacia los lados. Llega parado en su propia base: quien lo recibe no tiene que buscar florero, cortar tallos ni resolver nada.",
     "categories": [
         "mix",
         "precio-medio"
@@ -95,7 +95,7 @@ const products = [
     "name": "Le Dura Toda la Semana",
     "price": 625,
     "image": "assets/foto10.webp",
-    "description": "Veinticuatro rosas rosas en punto de botón, intercaladas con alstroemerias y hoja verde, envueltas en papel rosa con velo blanco. Van cerradas a propósito para que abran en casa: el ramo que recibe hoy no es el mismo que va a tener el viernes.<br><br>Dos docenas es la medida que se ve generosa sin volverse aparatosa, y el corte reciente le da casi una semana de vida en agua. Es el regalo de siempre, bien hecho y sin sorpresas: cumpleaños, agradecimientos o un martes cualquiera en que quieras que alguien se acuerde de ti.",
+    "description": "Veinticuatro rosas rosas en punto de botón, intercaladas con alstroemerias y hoja verde, envueltas en papel rosa con velo blanco. Van cerradas a propósito para que abran en casa: el ramo que recibe hoy no es el mismo que va a tener el viernes.",
     "categories": [
         "mix",
         "precio-medio"
@@ -106,7 +106,7 @@ const products = [
     "name": "Lo Van a Fotografiar",
     "price": 1625,
     "image": "assets/foto11.webp",
-    "description": "Caja redonda forrada de girasoles al ras, coronada por un globo burbuja transparente con tu mensaje impreso en dorado y una guirnalda de globos dorados y blancos. Incluye tarjeta y mariposas decorativas. Es de esos regalos que la gente fotografía antes de tocarlos.<br><br>Eso importa más de lo que parece: la foto termina en historias, te etiquetan y el detalle se ve tres veces en lugar de una. Ideal para cumpleaños, aniversarios y sorpresas en oficina o escuela. Dinos qué mensaje quieres en el globo y lo mandamos imprimir con tu pedido.",
+    "description": "Caja redonda forrada de girasoles al ras, coronada por un globo burbuja transparente con tu mensaje impreso en dorado y una guirnalda de globos dorados y blancos. Incluye tarjeta y mariposas decorativas.",
     "categories": [
         "girasoles",
         "cajas",
@@ -118,7 +118,7 @@ const products = [
     "name": "El Nombre Que Se Recuerda",
     "price": 2500,
     "image": "assets/foto12.webp",
-    "description": "Corona grande sobre follaje de palma, con una media luna de crisantemos blancos y un copete de girasoles, gerberas rojas y rosas blancas en la esquina superior. Al centro cruza el listón con el nombre de quien la envía, escrito a mano.<br><br>Ese listón es lo que la familia lee y lo que se queda en la memoria mucho después de la despedida: es como se sabe quién estuvo ahí. La entregamos montada en tripié en funerarias, capillas y panteones de Celaya y municipios vecinos. Mándanos por WhatsApp el nombre, la dirección de la sala y la hora límite.",
+    "description": "Corona grande sobre follaje de palma, con una media luna de crisantemos blancos y un copete de girasoles, gerberas rojas y rosas blancas en la esquina superior. Al centro cruza el listón con el nombre de quien la envía, escrito a mano.",
     "categories": [
         "funebre",
         "mix",
@@ -130,7 +130,7 @@ const products = [
     "name": "Máximo Honor",
     "price": 2500,
     "image": "assets/foto13.webp",
-    "description": "Corona armada exclusivamente con rosas blancas, colocadas una por una sobre base de nube, nardo y follaje verde. Puras rosas es el nivel más alto que existe en corona fúnebre: no lleva relleno, y eso se distingue desde la entrada de la sala.<br><br>Es la que se manda cuando el homenaje representa a una institución, una empresa o una dependencia, y el gesto tiene que estar a la altura del cargo o del cariño. Incluye listón impreso con el nombre de la empresa, la dependencia o la familia que la envía. Coordinamos entrega inmediata donde se esté velando.",
+    "description": "Corona armada exclusivamente con rosas blancas, colocadas una por una sobre base de nube, nardo y follaje verde. Puras rosas es el nivel más alto que existe en corona fúnebre: no lleva relleno, y eso se distingue desde la entrada de la sala.",
     "categories": [
         "funebre",
         "precio-alto"
@@ -141,7 +141,7 @@ const products = [
     "name": "Levanta el Ánimo",
     "price": 750,
     "image": "assets/foto14.webp",
-    "description": "Seis girasoles bien abiertos con rosas rojas asomando entre ellos, nube blanca y hoja verde, sobre papel rojo en capas amplias. El girasol trae la alegría y la rosa roja pone el mensaje: juntos dicen las dos cosas al mismo tiempo, sin que tengas que escribirlas.<br><br>Es el ramo que mejor funciona cuando las palabras no están saliendo bien —una disculpa, un mal día, alguien que anda de bajón—, porque el amarillo cambia el ánimo de un cuarto en cuanto entra. Regálalo en cumpleaños, para pedir perdón o para que alguien sepa que estás pendiente.",
+    "description": "Seis girasoles bien abiertos con rosas rojas asomando entre ellos, nube blanca y hoja verde, sobre papel rojo en capas amplias. El girasol trae la alegría y la rosa roja pone el mensaje: juntos dicen las dos cosas al mismo tiempo, sin que tengas que escribirlas.",
     "categories": [
         "girasoles",
         "rosas-rojas",
@@ -153,7 +153,7 @@ const products = [
     "name": "Hecho Para Sus Fotos",
     "price": 750,
     "image": "assets/foto15.webp",
-    "description": "Ramo redondo en rosa, lila y palo de rosa, con rosas, claveles, lisianthus, statice y nube, montado al ras para que se vea parejo desde cualquier ángulo de la cámara. Está pensado para el vals y la sesión: liviano de cargar y del tamaño justo para que no le tape el vestido.<br><br>Ese detalle del tamaño es el que casi nadie considera y el que arruina la mitad de las fotos de quinceañera. Lo armamos en el color exacto de la fiesta si nos mandas una foto del vestido. Apártalo con anticipación para asegurar el tono.",
+    "description": "Ramo redondo en rosa, lila y palo de rosa, con rosas, claveles, lisianthus, statice y nube, montado al ras para que se vea parejo desde cualquier ángulo de la cámara. Está pensado para el vals y la sesión: liviano de cargar y del tamaño justo para que no le tape el vestido.",
     "categories": [
         "mix",
         "precio-medio"
@@ -164,7 +164,7 @@ const products = [
     "name": "Se Va a Contar Por Años",
     "price": 2813,
     "image": "assets/foto16.webp",
-    "description": "Trece girasoles enmarcando un corazón de sesenta rosas rojas, con chocolates Ferrero Rocher formando la inicial al centro. Es la pieza más vistosa de todo el catálogo y no cabe en una mesa chica: hay que hacerle espacio antes de que llegue.<br><br>Cinco docenas de rosa, girasol de temporada y chocolate importado en una sola pieza: el costo se justifica solo cuando ves la reacción, y esa reacción se cuenta durante años. Resérvalo para aniversarios, pedidas de mano y el cumpleaños que quieras convertir en anécdota familiar. Se arma bajo pedido, avísanos con tiempo.",
+    "description": "Trece girasoles enmarcando un corazón de sesenta rosas rojas, con chocolates Ferrero Rocher formando la inicial al centro. Es la pieza más vistosa de todo el catálogo y no cabe en una mesa chica: hay que hacerle espacio antes de que llegue.",
     "categories": [
         "girasoles",
         "rosas-rojas",
@@ -177,7 +177,7 @@ const products = [
     "name": "Cabe en una Mano",
     "price": 375,
     "image": "assets/foto17.webp",
-    "description": "Ramo pequeño de rosas rojas con pompón verde y nardo, envuelto en papel blanco satinado y cruzado por un listón negro. Cabe en una mano y entra por cualquier puerta sin anunciarse, que a veces es justo lo que necesitas.<br><br>Es el detalle económico que no se ve económico: el papel satinado y el listón negro le dan acabado de ramo caro por menos de cuatrocientos pesos. Ideal para una primera cita, un aniversario de mes o un gracias que quieres dar hoy mismo, sin haberlo planeado desde ayer.",
+    "description": "Ramo pequeño de rosas rojas con pompón verde y nardo, envuelto en papel blanco satinado y cruzado por un listón negro. Cabe en una mano y entra por cualquier puerta sin anunciarse, que a veces es justo lo que necesitas.",
     "categories": [
         "rosas-rojas",
         "precio-bajo"
@@ -188,7 +188,7 @@ const products = [
     "name": "Puro Buen Humor",
     "price": 750,
     "image": "assets/foto18.webp",
-    "description": "Gerberas amarillas, rojas y rosas de cabeza grande, con rosas rojas, nardo blanco y nube, en envoltura blanca con filo rojo. Van seis o siete abiertas de par en par: la gerbera es la flor más alegre que existe y no necesita que nadie la explique.<br><br>Además aguanta bien el traslado y dura en agua, así que el ramo se ve igual de vivo dos o tres días después de entregado. Perfecto para un cumpleaños, para una amiga o para cualquier excusa buena de celebrar. Mándanos la dirección y lo entregamos el mismo día si nos escribes antes de las 2:00 PM.",
+    "description": "Gerberas amarillas, rojas y rosas de cabeza grande, con rosas rojas, nardo blanco y nube, en envoltura blanca con filo rojo. Van seis o siete abiertas de par en par: la gerbera es la flor más alegre que existe y no necesita que nadie la explique.",
     "categories": [
         "mix",
         "precio-medio"
@@ -199,7 +199,7 @@ const products = [
     "name": "Dos Regalos en Uno",
     "price": 1125,
     "image": "assets/foto19.webp",
-    "description": "Arreglo vertical en florero de cristal con lirios rosas, girasol, gerbera, rosas rojas y margaritas amarillas, acompañado de dos latas decoradas con chocolates Ferrero Rocher. El florero se queda de recuerdo y los chocolates se acaban el mismo día.<br><br>Por eso rinde el doble: uno se disfruta al instante y el otro sigue en la mesa semanas después, recordándole a quien lo recibió de dónde salió. Para cumpleaños, para el 14 de febrero y para esos detalles con los que necesitas quedar bien de verdad.",
+    "description": "Arreglo vertical en florero de cristal con lirios rosas, girasol, gerbera, rosas rojas y margaritas amarillas, acompañado de dos latas decoradas con chocolates Ferrero Rocher. El florero se queda de recuerdo y los chocolates se acaban el mismo día.",
     "categories": [
         "chocolates",
         "mix",
@@ -211,7 +211,7 @@ const products = [
     "name": "Quince Rosas, Quince Años",
     "price": 625,
     "image": "assets/foto20.webp",
-    "description": "Quince rosas en blanco, palo de rosa y rosa fuerte, montadas en domo cerrado sobre una nube densa de gypsophila, con el mango forrado en listón blanco. Una rosa por cada año, que es justo el detalle que la festejada nota y presume.<br><br>Es el ramo clásico de quinceañera y también el que más piden las novias de boda civil, porque es ligero de sostener y se ve impecable en cada foto sin cansar el brazo. Apártalo con unos días de anticipación y lo armamos en el tono que combine con la decoración.",
+    "description": "Quince rosas en blanco, palo de rosa y rosa fuerte, montadas en domo cerrado sobre una nube densa de gypsophila, con el mango forrado en listón blanco. Una rosa por cada año, que es justo el detalle que la festejada nota y presume.",
     "categories": [
         "mix",
         "precio-medio"
@@ -220,9 +220,9 @@ const products = [
 {
     "id": 20,
     "name": "Cambia Solo Cada Día",
-    "price": 1250,
+    "price": 1000,
     "image": "assets/foto21.webp",
-    "description": "Canasta de mimbre con una torre de rosas rojas al centro, girasoles a un costado, lirios rosas todavía en botón, gerberas blancas y nardo abriéndose en abanico. Los lirios van cerrados y siguen abriendo toda la semana: el arreglo no es el mismo el lunes que el viernes.<br><br>Esa transformación es lo que lo hace rendir tanto para lo que cuesta, y la canasta se queda de recuerdo cuando la flor termina. Envíalo en cumpleaños, aniversarios de empresa e inauguraciones donde quieras que el detalle se vea desde la entrada.",
+    "description": "Canasta de mimbre con una torre de rosas rojas al centro, girasoles a un costado, lirios rosas todavía en botón, gerberas blancas y nardo abriéndose en abanico. Los lirios van cerrados y siguen abriendo toda la semana: el arreglo no es el mismo el lunes que el viernes.",
     "categories": [
         "girasoles",
         "rosas-rojas",
@@ -235,7 +235,7 @@ const products = [
     "name": "Alegría de Bolsillo",
     "price": 750,
     "image": "assets/foto22.webp",
-    "description": "Ramo de gerberas en rosa claro y fucsia, con statice, nube y hoja verde, en envoltura blanca con papel fucsia y detalles de fresas. Toda la flor va abierta y de frente: no necesita nada más para llamar la atención de quien entra al cuarto.<br><br>Por menos de ochocientos pesos se ve como un ramo de mil quinientos, porque la gerbera tiene la cabeza grande y llena mucho espacio visual. El detalle perfecto para un cumpleaños, para el 10 de mayo o para alegrarle el día a alguien sin descuadrar la quincena.",
+    "description": "Ramo de gerberas en rosa claro y fucsia, con statice, nube y hoja verde, en envoltura blanca con papel fucsia y detalles de fresas. Toda la flor va abierta y de frente: no necesita nada más para llamar la atención de quien entra al cuarto.",
     "categories": [
         "mix",
         "precio-medio"
@@ -244,9 +244,9 @@ const products = [
 {
     "id": 22,
     "name": "Se Ve Desde la Calle",
-    "price": 2500,
+    "price": 2000,
     "image": "assets/foto23.webp",
-    "description": "Arreglo de dos pisos: una base amplia de girasoles, margaritas lilas, alstroemerias y nardo, coronada por un corazón de rosas rojas y rosas montado en alto sobre una nube blanca. Mide más de un metro y hay que entregarlo entre dos personas.<br><br>Ese tamaño es el punto: no es un regalo que se recibe en privado, es uno que ven los vecinos, los compañeros de trabajo y quien pase por ahí. Para aniversarios grandes, pedidas de mano y sorpresas que quieres que se enteren todos. Coordina con nosotros la hora para que llegue cuando haya público.",
+    "description": "Arreglo de dos pisos: una base amplia de girasoles, margaritas lilas, alstroemerias y nardo, coronada por un corazón de rosas rojas y rosas montado en alto sobre una nube blanca. Mide más de un metro y hay que entregarlo entre dos personas.",
     "categories": [
         "girasoles",
         "rosas-rojas",
@@ -258,7 +258,7 @@ const products = [
     "name": "Listo Para la Mesa",
     "price": 563,
     "image": "assets/foto24.webp",
-    "description": "Cajón de madera rústica con rosas rojas, gerberas amarillas, alstroemerias, lirios por abrir y statice morado, todo montado en oasis. No necesita florero, no hay que cortarle nada y no se cae: llega y se pone donde quieras.<br><br>El oasis lo mantiene hidratado varios días, así que se sostiene solo sin que nadie tenga que ocuparse de él, algo clave si va para una oficina. Regálalo en cumpleaños, agradecimientos y detalles de trabajo donde no sabes si habrá quien lo acomode.",
+    "description": "Cajón de madera rústica con rosas rojas, gerberas amarillas, alstroemerias, lirios por abrir y statice morado, todo montado en oasis. No necesita florero, no hay que cortarle nada y no se cae: llega y se pone donde quieras.",
     "categories": [
         "cajas",
         "mix",
@@ -270,7 +270,7 @@ const products = [
     "name": "Siempre Te Recordaré",
     "price": 625,
     "image": "assets/foto25.webp",
-    "description": "Arreglo funeral en forma de domo con crisantemos blancos, lirios, gerberas rojas, rosas y un girasol al centro, cruzado por un listón con la frase que tú elijas, escrita a mano. Se coloca junto al féretro o sobre una mesa y llena el espacio sin robarle protagonismo a la corona principal.<br><br>Es la opción para cuando quieres estar presente de verdad, pero el tamaño y el costo de una corona no corresponden a la relación o al momento. Lo entregamos el mismo día en funerarias, capillas y domicilios de Celaya. Mándanos la frase por WhatsApp y la escribimos tal cual.",
+    "description": "Arreglo funeral en forma de domo con crisantemos blancos, lirios, gerberas rojas, rosas y un girasol al centro, cruzado por un listón con la frase que tú elijas, escrita a mano. Se coloca junto al féretro o sobre una mesa y llena el espacio sin robarle protagonismo a la corona principal.",
     "categories": [
         "funebre",
         "mix",
@@ -282,7 +282,7 @@ const products = [
     "name": "La Despedida Más Cálida",
     "price": 2250,
     "image": "assets/foto26.webp",
-    "description": "Corona mediana sobre palma, con media luna de crisantemos blancos y un copete de girasoles, gerberas rosas, rosas y nardo. Los girasoles le quitan la solemnidad pesada y la convierten en una despedida cálida, más parecida a la persona que a la ocasión.<br><br>Es la que más se pide para mamás y abuelas, justo porque celebra cómo vivieron y no solo que se fueron. Va montada en tripié, con listón impreso, y coordinamos la entrega donde se esté velando. Escríbenos el nombre de la sala y la hora, y del resto nos encargamos nosotros.",
+    "description": "Corona mediana sobre palma, con media luna de crisantemos blancos y un copete de girasoles, gerberas rosas, rosas y nardo. Los girasoles le quitan la solemnidad pesada y la convierten en una despedida cálida, más parecida a la persona que a la ocasión.",
     "categories": [
         "funebre",
         "girasoles",
@@ -292,9 +292,9 @@ const products = [
 {
     "id": 26,
     "name": "No Hay Dos Iguales",
-    "price": 750,
+    "price": 625,
     "image": "assets/foto27.webp",
-    "description": "Ramo variado en tonos suaves: girasol al centro, gerberas rosa y naranja, rosas de spray, lirios naranjas y hortensia verde, en papel rosa con estampado. Nunca sale idéntico dos veces, porque lo armamos con lo mejor que llegó esa mañana al mercado.<br><br>Eso significa que quien lo recibe tiene un ramo que nadie más va a tener, y que la flor lleva horas cortada, no días. Para cumpleaños, para el 10 de mayo o para alguien que aprecia lo bonito sin estridencias. Si quieres ver cómo quedó, te mandamos la foto antes de que salga a entrega.",
+    "description": "Ramo variado en tonos suaves: girasol al centro, gerberas rosa y naranja, rosas de spray, lirios naranjas y hortensia verde, en papel rosa con estampado. Nunca sale idéntico dos veces, porque lo armamos con lo mejor que llegó esa mañana al mercado.",
     "categories": [
         "mix",
         "precio-medio"
@@ -303,9 +303,9 @@ const products = [
 {
     "id": 27,
     "name": "El Ramo Que Se Nota",
-    "price": 1000,
+    "price": 750,
     "image": "assets/foto28.webp",
-    "description": "Ramo de gran volumen con rosas rojas, rosas de spray en palo de rosa, gerberas fucsia y naranja, pompón verde, alstroemerias y una hortensia verde completa en la base. La hortensia es la flor cara del ramo y se nota: le da un peso visual que ninguna otra alcanza.<br><br>Por mil pesos entrega el tamaño y la densidad que en otras florerías cuestan bastante más, porque trabajamos directo con el proveedor. Para regalos importantes, cumpleaños de alguien que sí te importa y agradecimientos que quieres que se tomen en serio.",
+    "description": "Ramo de gran volumen con rosas rojas, rosas de spray en palo de rosa, gerberas fucsia y naranja, pompón verde, alstroemerias y una hortensia verde completa en la base. La hortensia es la flor cara del ramo y se nota: le da un peso visual que ninguna otra alcanza.",
     "categories": [
         "rosas-rojas",
         "mix",
@@ -315,9 +315,9 @@ const products = [
 {
     "id": 28,
     "name": "Domina el Salón",
-    "price": 1875,
+    "price": 1250,
     "image": "assets/foto29.webp",
-    "description": "Arreglo montado en altura, con una cascada de rosas rojas y rosas bajando por el centro, girasoles arriba, lirios orientales por abrir, gerberas y margaritas blancas en la base. Sobrepasa los ochenta centímetros y manda en cualquier espacio donde lo dejen.<br><br>Es la pieza que se pone en la entrada de un evento o junto al presídium, donde tiene que verse en las fotos y en el video. Para inauguraciones, aniversarios de empresa, cumpleaños grandes y homenajes. Escríbenos la hora del evento y lo dejamos montado antes de que llegue el primer invitado.",
+    "description": "Arreglo montado en altura, con una cascada de rosas rojas y rosas bajando por el centro, girasoles arriba, lirios orientales por abrir, gerberas y margaritas blancas en la base. Sobrepasa los ochenta centímetros y manda en cualquier espacio donde lo dejen.",
     "categories": [
         "girasoles",
         "rosas-rojas",
@@ -328,9 +328,9 @@ const products = [
 {
     "id": 29,
     "name": "Llena la Mesa Completa",
-    "price": 1500,
+    "price": 1000,
     "image": "assets/foto30.webp",
-    "description": "Cajón grande de madera con girasol, rosas naranjas y amarillas, lirios blancos por abrir, alstroemerias, margaritas y eucalipto, todo montado en oasis y rematado con un lazo de hoja verde. Es la versión grande del cajón: ocupa una mesa de centro entera.<br><br>Llega listo, se sostiene solo y el cajón se queda como recuerdo mucho después de que la flor termine. Ideal para cumpleaños, agradecimientos formales y regalos de empresa a empresa, donde el envase importa tanto como la flor.",
+    "description": "Cajón grande de madera con girasol, rosas naranjas y amarillas, lirios blancos por abrir, alstroemerias, margaritas y eucalipto, todo montado en oasis y rematado con un lazo de hoja verde. Es la versión grande del cajón: ocupa una mesa de centro entera.",
     "categories": [
         "cajas",
         "girasoles",
@@ -343,7 +343,7 @@ const products = [
     "name": "Queda Bien con Toda la Familia",
     "price": 2500,
     "image": "assets/foto31.webp",
-    "description": "Canasta grande de mimbre con base de fruta de temporada —manzana, plátano, uva, sandía— y encima una montaña de flores: aves del paraíso, lirios blancos, girasoles, gerberas de colores, rosas y nardo, rematada con moño de organza. Se ve y se come al mismo tiempo.<br><br>Es el regalo obligado cuando alguien está en el hospital, saliendo de una convalecencia o cuando tienes que quedar bien con una casa completa y no solo con una persona. La fruta la seleccionamos el mismo día. Dinos a qué hospital o domicilio va y coordinamos la entrega.",
+    "description": "Canasta grande de mimbre con base de fruta de temporada —manzana, plátano, uva, sandía— y encima una montaña de flores: aves del paraíso, lirios blancos, girasoles, gerberas de colores, rosas y nardo, rematada con moño de organza. Se ve y se come al mismo tiempo.",
     "categories": [
         "cajas",
         "mix",
@@ -353,9 +353,9 @@ const products = [
 {
     "id": 31,
     "name": "Su Inicial en Flores",
-    "price": 1875,
+    "price": 1500,
     "image": "assets/foto32.webp",
-    "description": "Letras e iniciales armadas flor por flor sobre estructura, combinando girasoles, rosas fucsia, pompón verde, margaritas y statice morado. Hacemos la inicial del festejado, un número o una palabra corta, en los colores exactos que traiga tu evento.<br><br>El precio es por letra, así que tú decides hasta dónde llegar: una inicial para la mesa de bienvenida o el nombre completo para el fondo de las fotos. Ideal para cumpleaños, XV años, bodas y eventos de marca. Se arman bajo pedido, escríbenos con anticipación para reservar la fecha.",
+    "description": "Letras e iniciales armadas flor por flor sobre estructura, combinando girasoles, rosas fucsia, pompón verde, margaritas y statice morado. Hacemos la inicial del festejado, un número o una palabra corta, en los colores exactos que traiga tu evento.",
     "categories": [
         "mix",
         "precio-alto"
@@ -364,9 +364,9 @@ const products = [
 {
     "id": 32,
     "name": "Se Queda a la Vista",
-    "price": 1000,
+    "price": 875,
     "image": "assets/foto33.webp",
-    "description": "Florero de cristal con una torre de rosas rosas y rojas subiendo por el centro, lirios blancos abiertos a los lados, gerberas rosas y margaritas amarillas en la base. El cristal deja ver los tallos y el agua, así que se ve limpio desde cualquier ángulo.<br><br>Por eso es el que se queda en lugares donde pasa gente todo el día: recepciones, consultorios, recámaras y salas. El florero se conserva y se vuelve a usar mucho después. Mándalo cuando quieras que tu detalle siga a la vista semanas enteras.",
+    "description": "Florero de cristal con una torre de rosas rosas y rojas subiendo por el centro, lirios blancos abiertos a los lados, gerberas rosas y margaritas amarillas en la base. El cristal deja ver los tallos y el agua, así que se ve limpio desde cualquier ángulo.",
     "categories": [
         "rosas-rojas",
         "mix",
@@ -378,7 +378,7 @@ const products = [
     "name": "El Que Nadie Más Va a Llevar",
     "price": 2875,
     "image": "assets/foto34.webp",
-    "description": "Ramo de novia en cascada con peonías en coral y fucsia, lisianthus doble y una caída de orquídeas dendrobium lila que baja casi medio metro. Es flor de importación y se arma el mismo día de la boda, con la flor recién llegada.<br><br>Por eso se aparta con anticipación: no es algo que se improvise el viernes anterior, y esa exclusividad es justo lo que estás pagando. Para novias que ya vieron todo lo que hay en internet y quieren el ramo que nadie más va a llevar. Escríbenos con la fecha y bloqueamos la flor a tu nombre.",
+    "description": "Ramo de novia en cascada con peonías en coral y fucsia, lisianthus doble y una caída de orquídeas dendrobium lila que baja casi medio metro. Es flor de importación y se arma el mismo día de la boda, con la flor recién llegada.",
     "categories": [
         "mix",
         "precio-alto"
@@ -387,9 +387,9 @@ const products = [
 {
     "id": 34,
     "name": "Rojo Que No Pide Permiso",
-    "price": 1187.5,
+    "price": 875,
     "image": "assets/foto35.webp",
-    "description": "Domo cerrado de rosas rojas con gerberas naranjas abiertas alrededor, pompones lila, alstroemerias blancas y follaje verde, todo envuelto en papel rosa con marco dorado. El rojo manda al centro y el naranja lo empuja hacia afuera, así que se ve enorme desde lejos y desde la foto.<br><br>Es el ramo para cuando quieres decir algo fuerte pero no quieres el ramo rojo de siempre que todo el mundo manda. Sale del taller el mismo día con la flor de esa mañana. Escríbenos por WhatsApp, dinos la colonia de Celaya y te mandamos la foto del tuyo antes de que salga a entrega.",
+    "description": "Domo cerrado de rosas rojas con gerberas naranjas abiertas alrededor, pompones lila, alstroemerias blancas y follaje verde, todo envuelto en papel rosa con marco dorado. El rojo manda al centro y el naranja lo empuja hacia afuera, así que se ve enorme desde lejos y desde la foto.",
     "categories": [
         "rosas-rojas",
         "mix",
@@ -401,7 +401,7 @@ const products = [
     "name": "Suave Pero Se Nota",
     "price": 812.5,
     "image": "assets/foto36.webp",
-    "description": "Ramo en tonos pastel con rosas rosas y blancas, pompones lila, margaritas, alstroemerias y ramas de nube abiertas por todo el contorno, en papel rosa con filo dorado. La nube es la que le da el vuelo: hace que un ramo de tamaño medio ocupe el doble de espacio en las manos.<br><br>Funciona para casi todo —cumpleaños, aniversario, el 10 de mayo, un perdón— justo porque no se casa con una sola ocasión ni con un solo color. Es de los que más se piden cuando no sabes bien qué mandar y no te quieres equivocar. Entrega el mismo día en Celaya y municipios vecinos.",
+    "description": "Ramo en tonos pastel con rosas rosas y blancas, pompones lila, margaritas, alstroemerias y ramas de nube abiertas por todo el contorno, en papel rosa con filo dorado. La nube es la que le da el vuelo: hace que un ramo de tamaño medio ocupe el doble de espacio en las manos.",
     "categories": [
         "mix",
         "precio-medio"
@@ -412,7 +412,7 @@ const products = [
     "name": "Seis Docenas en Pastel",
     "price": 1875,
     "image": "assets/foto37.webp",
-    "description": "Setenta y dos rosas en tonos durazno, palo de rosa y crema, montadas en domo apretado con lirios todavía en botón asomando por arriba y un cinturón completo de nube alrededor, en papel nude con filo dorado. Los lirios van cerrados a propósito: abren durante los días siguientes y el ramo se transforma en casa de quien lo recibe.<br><br>Seis docenas no se cargan con una mano, y esa es justo la reacción que compras: el momento en que la persona lo ve y no sabe ni dónde ponerlo. Para pedidas de mano, aniversarios importantes y disculpas que necesitan tamaño. Apártalo con un día de anticipación para asegurar el tono exacto de rosa.",
+    "description": "Setenta y dos rosas en tonos durazno, palo de rosa y crema, montadas en domo apretado con lirios todavía en botón asomando por arriba y un cinturón completo de nube alrededor, en papel nude con filo dorado. Los lirios van cerrados a propósito: abren durante los días siguientes y el ramo se transforma en casa de quien lo recibe.",
     "categories": [
         "mix",
         "precio-alto"
@@ -421,9 +421,9 @@ const products = [
 {
     "id": 37,
     "name": "Ochenta Gerberas de Golpe",
-    "price": 2437.5,
+    "price": 3125,
     "image": "assets/foto38.webp",
-    "description": "Ramo gigante de seis docenas de gerberas en rojo, naranja, amarillo, fucsia, rosa y blanco, acomodadas una por una en domo plano y rematado con un moño de listón rosa, sobre papel blanco con filo dorado. Es color puro: no lleva relleno ni follaje que le baje intensidad.<br><br>La gerbera es la flor más alegre que existe y en esta cantidad se convierte en un muro de color que se ve desde la otra punta del salón. Para cumpleaños de alguien explosivo, graduaciones, entregas en oficina y sorpresas donde quieres que todos volteen. Se arma bajo pedido porque son muchas flores: escríbenos con un día de anticipación.",
+    "description": "Ramo gigante de seis docenas de gerberas en rojo, naranja, amarillo, fucsia, rosa y blanco, acomodadas una por una en domo plano y rematado con un moño de listón rosa, sobre papel blanco con filo dorado. Es color puro: no lleva relleno ni follaje que le baje intensidad.",
     "categories": [
         "mix",
         "precio-alto"
@@ -432,9 +432,9 @@ const products = [
 {
     "id": 38,
     "name": "Todo en Uno",
-    "price": 1187.5,
+    "price": 1125,
     "image": "assets/foto39.webp",
-    "description": "Cajón de madera con una hilera de rosas rojas arriba, girasol al centro, lirios, margaritas fucsia, tulipán y solidago amarillo, más chocolates surtidos, una caja de bombones en forma de corazón, tarjeta y dos globos metálicos en rosa dorado. Flores, dulce y globo en una sola entrega.<br><br>Es el regalo que resuelve el cumpleaños completo sin que tengas que ir a tres lugares distintos ni armar nada. Llega montado en oasis, se sostiene solo y el cajón se queda de recuerdo. Dinos el nombre para la tarjeta y la hora de entrega, y lo dejamos en su casa o en su trabajo en Celaya.",
+    "description": "Cajón de madera con una hilera de rosas rojas arriba, girasol al centro, lirios, margaritas fucsia, tulipán y solidago amarillo, más chocolates surtidos, una caja de bombones en forma de corazón, tarjeta y dos globos metálicos en rosa dorado. Flores, dulce y globo en una sola entrega.",
     "categories": [
         "chocolates",
         "cajas",
@@ -447,7 +447,7 @@ const products = [
     "name": "Cilindro Floral",
     "price": 625,
     "image": "assets/foto40.webp",
-    "description": "Florero cilíndrico de cristal con rosas fucsia y rosa palo, alstroemerias blancas, nube, solidago y hoja verde brillante, con una mariposa decorativa asomando arriba y un moño fucsia en la base. Llega con agua, listo para poner sobre la mesa sin que nadie tenga que cortar ni acomodar nada.<br><br>Ese es el punto: quien lo recibe no tiene que buscar florero ni saber de flores, solo cambiar el agua cada tercer día. Por seiscientos veinticinco pesos es el detalle más completo que puedes mandar a una oficina, un consultorio o una recepción. El cilindro se queda y se vuelve a usar mucho después.",
+    "description": "Florero cilíndrico de cristal con rosas fucsia y rosa palo, alstroemerias blancas, nube, solidago y hoja verde brillante, con una mariposa decorativa asomando arriba y un moño fucsia en la base. Llega con agua, listo para poner sobre la mesa sin que nadie tenga que cortar ni acomodar nada.",
     "categories": [
         "mix",
         "precio-medio"
@@ -456,9 +456,9 @@ const products = [
 {
     "id": 40,
     "name": "Maxi Ramo Fucsia",
-    "price": 3125,
+    "price": 2500,
     "image": "assets/foto41.webp",
-    "description": "Maxi ramo de rosas fucsia y rosa palo con rosas de spray, alstroemerias blancas y follaje verde, envuelto en papel negro mate en capas de picos y amarrado con listón fucsia. El negro es lo que lo cambia todo: hace que el fucsia se vea el doble de intenso y le quita cualquier aire de ramo común.<br><br>Se carga con las dos manos y tapa a quien lo lleva, así que la entrega en sí ya es el espectáculo. Para pedidas de mano, aniversarios de peso y sorpresas en lugares públicos donde quieres que la gente voltee. Se arma bajo pedido: apártalo con anticipación por WhatsApp.",
+    "description": "Maxi ramo de rosas fucsia y rosa palo con rosas de spray, alstroemerias blancas y follaje verde, envuelto en papel negro mate en capas de picos y amarrado con listón fucsia. El negro es lo que lo cambia todo: hace que el fucsia se vea el doble de intenso y le quita cualquier aire de ramo común.",
     "categories": [
         "mix",
         "precio-alto"
@@ -469,7 +469,7 @@ const products = [
     "name": "Cinco Docenas de Rosas",
     "price": 1375,
     "image": "assets/foto42.webp",
-    "description": "Sesenta rosas entre rojas, rosas, blancas y palo de rosa, acomodadas en domo cerrado sobre una cama completa de nube y envueltas en papel durazno. La mezcla de tonos hace que el ramo se lea con profundidad, en lugar de verse como un bloque plano de un solo color.<br><br>Cinco docenas es el punto donde el ramo deja de ser un detalle y se vuelve un gesto: pesa, se nota y no se olvida. Cuesta bastante menos que un arreglo grande y entrega la misma reacción. Cortamos la rosa la misma mañana, así que te dura los días que tiene que durar.",
+    "description": "Sesenta rosas entre rojas, rosas, blancas y palo de rosa, acomodadas en domo cerrado sobre una cama completa de nube y envueltas en papel durazno. La mezcla de tonos hace que el ramo se lea con profundidad, en lugar de verse como un bloque plano de un solo color.",
     "categories": [
         "rosas-rojas",
         "mix",
@@ -479,9 +479,9 @@ const products = [
 {
     "id": 42,
     "name": "Maxi Ramo de Cumpleaños",
-    "price": 3125,
+    "price": 2500,
     "image": "assets/foto43.webp",
-    "description": "Maxi ramo de rosas en rojo, naranja, amarillo, fucsia y rosa, con nube repartida en todo el contorno, mariposas decorativas entre las flores y una banda impresa con la frase que tú elijas, sobre papel fucsia en capas. Es el ramo de cumpleaños llevado al tamaño máximo.<br><br>La banda es la que lo personaliza: ponemos el nombre, la edad o la frase que nos dictes, impresa y lista. Para cumpleaños de cifra cerrada, XV años, graduaciones y sorpresas que van a terminar en las historias de todo el mundo. Mándanos el texto por WhatsApp y apártalo con anticipación.",
+    "description": "Maxi ramo de rosas en rojo, naranja, amarillo, fucsia y rosa, con nube repartida en todo el contorno, mariposas decorativas entre las flores y una banda impresa con la frase que tú elijas, sobre papel fucsia en capas. Es el ramo de cumpleaños llevado al tamaño máximo.",
     "categories": [
         "mix",
         "precio-alto"
@@ -492,7 +492,7 @@ const products = [
     "name": "Maxi Ramo de Rosas Amarillas",
     "price": 3125,
     "image": "assets/foto44.webp",
-    "description": "Maxi ramo armado solo con rosas amarillas, más de cien tallos en domo cerrado, con un aro completo de nube alrededor y una tarjeta escrita a mano al frente, sobre papel blanco traslúcido. Puro amarillo, sin relleno de otro color: es un sol completo.<br><br>El amarillo es la flor del 21 de septiembre y de los comienzos, y en esta cantidad se convierte en la foto del día. Escribimos a mano el mensaje que nos dictes en la tarjeta, tal cual lo mandes. Se arma bajo pedido porque son muchísimas rosas: apártalo con anticipación, sobre todo en septiembre.",
+    "description": "Maxi ramo armado solo con rosas amarillas, más de cien tallos en domo cerrado, con un aro completo de nube alrededor y una tarjeta escrita a mano al frente, sobre papel blanco traslúcido. Puro amarillo, sin relleno de otro color: es un sol completo.",
     "categories": [
         "mix",
         "precio-alto"
@@ -503,7 +503,7 @@ const products = [
     "name": "Chico Pero Bien Hecho",
     "price": 625,
     "image": "assets/foto45.webp",
-    "description": "Ramo de dos docenas de rosas rosas y blancas en domo, con nube abierta en todo el contorno, tarjeta con pinza y papel blanco traslúcido rematado con listón. Chico de precio, no de presencia: la nube lo abre y el papel en picos lo levanta.<br><br>Es el que se manda cuando el detalle importa más que el tamaño —un gracias, un ánimo, un aniversario de mes, una visita al hospital— y no quieres llegar con algo que se vea improvisado. La tarjeta va incluida y la escribimos a mano. Entrega el mismo día en Celaya si nos escribes temprano.",
+    "description": "Ramo de dos docenas de rosas rosas y blancas en domo, con nube abierta en todo el contorno, tarjeta con pinza y papel blanco traslúcido rematado con listón. Chico de precio, no de presencia: la nube lo abre y el papel en picos lo levanta.",
     "categories": [
         "mix",
         "precio-medio"
@@ -514,7 +514,7 @@ const products = [
     "name": "Todo Rojo, Tamaño Chico",
     "price": 625,
     "image": "assets/foto46.webp",
-    "description": "Ramo compacto en rojo total: gerberas rojas abiertas, rosas rojas, rosas de spray en rosa pálido, bayas de hypericum y hojas de eucalipto redondo. El eucalipto plateado es el detalle que lo sube de nivel y es flor que casi nadie mete en un ramo de este precio.<br><br>Es el ramo romántico que sí cabe en el presupuesto, para el 14 de febrero, un aniversario de mes o un detalle de martes cualquiera. Cabe en un escritorio y dura, porque la gerbera y el hypericum aguantan más que casi cualquier otra flor. Pídelo por WhatsApp y te mandamos foto antes de entregarlo.",
+    "description": "Ramo compacto en rojo total: gerberas rojas abiertas, rosas rojas, rosas de spray en rosa pálido, bayas de hypericum y hojas de eucalipto redondo. El eucalipto plateado es el detalle que lo sube de nivel y es flor que casi nadie mete en un ramo de este precio.",
     "categories": [
         "rosas-rojas",
         "mix",
@@ -524,9 +524,9 @@ const products = [
 {
     "id": 46,
     "name": "Maxi Ramo de Girasoles",
-    "price": 1437.5,
+    "price": 1400,
     "image": "assets/foto47.webp",
-    "description": "Maxi ramo de girasoles grandes con rosas amarillas y crema entre ellos, solidago y follaje verde, envuelto en papel blanco en capas de picos. Los girasoles van todos a la misma altura, así que se ve como una sola superficie de amarillo en lugar de un ramo desordenado.<br><br>El girasol es la flor que le gusta a todo el mundo y no se presta a malentendidos: sirve igual para una amiga, para tu mamá, para un jefe o para alguien que está saliendo de un mal rato. Por mil cuatrocientos treinta y siete cincuenta traes tamaño de maxi ramo a precio de ramo mediano. Entrega el mismo día en Celaya.",
+    "description": "Maxi ramo de girasoles grandes con rosas amarillas y crema entre ellos, solidago y follaje verde, envuelto en papel blanco en capas de picos. Los girasoles van todos a la misma altura, así que se ve como una sola superficie de amarillo en lugar de un ramo desordenado.",
     "categories": [
         "girasoles",
         "mix",
@@ -536,9 +536,9 @@ const products = [
 {
     "id": 47,
     "name": "El Más Elegante del Catálogo",
-    "price": 3750,
+    "price": 2500,
     "image": "assets/foto48.webp",
-    "description": "Maxi ramo en tonos lila, rosa palo y durazno: gerberas rosa claro, rosas lavanda, rosas de spray, lisianthus morado, limonium rosa y encaje blanco, envuelto en papel lila traslúcido con costura. Es una paleta completa trabajada tono sobre tono, no una mezcla de colores sueltos.<br><br>Es la pieza más fina que armamos y se nota en la flor: lisianthus y limonium son flores de importación que casi ninguna florería de Celaya trae en volumen. Para bodas civiles, aniversarios de plata, agradecimientos formales y regalos donde el buen gusto es el mensaje. Se arma bajo pedido, con la flor apartada a tu nombre.",
+    "description": "Maxi ramo en tonos lila, rosa palo y durazno: gerberas rosa claro, rosas lavanda, rosas de spray, lisianthus morado, limonium rosa y encaje blanco, envuelto en papel lila traslúcido con costura. Es una paleta completa trabajada tono sobre tono, no una mezcla de colores sueltos.",
     "categories": [
         "mix",
         "precio-alto"
@@ -547,9 +547,9 @@ const products = [
 {
     "id": 48,
     "name": "Ramo Chico Variado",
-    "price": 625,
+    "price": 500,
     "image": "assets/foto49.webp",
-    "description": "Ramo alto con girasoles, tulipanes rosas, claveles, hortensia verde, perritos rosas, eucalipto y nube, en papel blanco traslúcido. Lleva tulipán y hortensia, que son las dos flores que normalmente disparan el precio de un ramo, y aun así se queda en seiscientos veinticinco.<br><br>Nunca sale idéntico dos veces porque lo armamos con lo mejor que llegó esa mañana, así que quien lo recibe tiene un ramo que nadie más va a tener. Para cumpleaños, el 10 de mayo, agradecimientos y detalles de todos los días. Te mandamos la foto del tuyo antes de que salga a entrega.",
+    "description": "Ramo alto con girasoles, tulipanes rosas, claveles, hortensia verde, perritos rosas, eucalipto y nube, en papel blanco traslúcido. Lleva tulipán y hortensia, que son las dos flores que normalmente disparan el precio de un ramo, y aun así se queda en quinientos.",
     "categories": [
         "girasoles",
         "tulipanes",
@@ -562,7 +562,7 @@ const products = [
     "name": "Corona Mediana en Tonos Rosa",
     "price": 2250,
     "image": "assets/foto50.webp",
-    "description": "Corona mediana en tripié sobre follaje de palma, con aro de crisantemos blancos y crema, y copetes de lirios rosas, gerberas fucsia, rosas blancas y palo de rosa, perritos y nube arriba y abajo. Cruza el listón negro con letra dorada donde va el nombre de quien la envía.<br><br>Los tonos rosa la hacen la corona que se manda para una mujer —mamá, abuela, esposa, hija— cuando el blanco solo se siente demasiado frío para quien fue. Va montada y lista para exhibirse. Escríbenos el nombre de la funeraria, la hora y el texto del listón, y la entregamos donde se esté velando en Celaya.",
+    "description": "Corona mediana en tripié sobre follaje de palma, con aro de crisantemos blancos y crema, y copetes de lirios rosas, gerberas fucsia, rosas blancas y palo de rosa, perritos y nube arriba y abajo. Cruza el listón negro con letra dorada donde va el nombre de quien la envía.",
     "categories": [
         "funebre",
         "mix",
@@ -574,7 +574,7 @@ const products = [
     "name": "Cubre Caja Fúnebre",
     "price": 625,
     "image": "assets/foto51.webp",
-    "description": "Arreglo alargado que se coloca encima del féretro, con girasoles, lirios blancos abiertos, crisantemos, rosas rojas y blancas, perritos, hypericum y solidago sobre follaje verde, cruzado por un listón impreso con el texto que tú elijas. Se monta directo sobre la tapa y cubre a lo largo.<br><br>Es lo que la familia ve durante todo el velorio y lo que sale en cada foto, y aun así cuesta una fracción de lo que cuesta una corona. Los girasoles le dan calidez y lo alejan de la despedida solemne de siempre. Lo entregamos el mismo día en funerarias y capillas de Celaya; mándanos el texto del listón por WhatsApp.",
+    "description": "Arreglo alargado que se coloca encima del féretro, con girasoles, lirios blancos abiertos, crisantemos, rosas rojas y blancas, perritos, hypericum y solidago sobre follaje verde, cruzado por un listón impreso con el texto que tú elijas. Se monta directo sobre la tapa y cubre a lo largo.",
     "categories": [
         "funebre",
         "girasoles",
