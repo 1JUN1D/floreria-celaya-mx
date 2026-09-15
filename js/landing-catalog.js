@@ -494,6 +494,7 @@ const products = [
     "image": "assets/foto44.webp",
     "description": "Maxi ramo armado solo con rosas amarillas, más de cien tallos en domo cerrado, con un aro completo de nube alrededor y una tarjeta escrita a mano al frente, sobre papel blanco traslúcido. Puro amarillo, sin relleno de otro color: es un sol completo.",
     "categories": [
+        "flores-amarillas",
         "mix",
         "precio-alto"
     ]
@@ -528,6 +529,7 @@ const products = [
     "image": "assets/foto47.webp",
     "description": "Maxi ramo de girasoles grandes con rosas amarillas y crema entre ellos, solidago y follaje verde, envuelto en papel blanco en capas de picos. Los girasoles van todos a la misma altura, así que se ve como una sola superficie de amarillo en lugar de un ramo desordenado.",
     "categories": [
+        "flores-amarillas",
         "girasoles",
         "mix",
         "precio-medio"
@@ -580,6 +582,70 @@ const products = [
         "girasoles",
         "mix",
         "precio-medio"
+    ]
+},
+{
+    "id": 51,
+    "name": "Amarillo Que Ilumina",
+    "price": 781.25,
+    "image": "assets/foto52.webp",
+    "description": "Girasol abierto al centro con gerberas y rosas amarillas alrededor, hortensia blanca, alcatraces, lisianthus, alstroemerias, bayas rosas de hypericum y nube, en papel blanco en capas de picos. El blanco hace que el amarillo se vea todavía más encendido: es el ramo para quien quiere flores amarillas sin que se vea plano.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 52,
+    "name": "Amarillo de Pie",
+    "price": 875,
+    "image": "assets/foto53.webp",
+    "description": "Arreglo alto en cilindro de cristal con una columna de rosas amarillas subiendo por el centro, girasoles, gerberas rosas, lirios blancos, perritos, alstroemerias y nube, rematado con hojas de aspidistra en lazo y rosas amarillas sumergidas dentro del florero. Llega con agua y florero: se pone en la mesa y se queda ahí toda la semana.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 53,
+    "name": "Girasoles en Rojo",
+    "price": 875,
+    "image": "assets/foto54.webp",
+    "description": "Siete girasoles grandes montados al ras, con rosas rojas asomando entre ellos y nube blanca en todo el contorno, sobre papel rojo en capas de picos. El rojo detrás del amarillo lo hace ver el doble de intenso: es el ramo de flores amarillas que además dice te quiero.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 54,
+    "name": "Girasoles de Cumpleaños",
+    "price": 2250,
+    "image": "assets/foto55.webp",
+    "description": "Maxi ramo con más de quince girasoles al ras, enmarcado por un aro completo de rosas fucsia y coronado con el letrero dorado de Feliz Cumpleaños, en papel blanco con detalle a cuadros. Es un ramo de dos manos: quien lo recibe lo tiene que abrazar para cargarlo, y eso se nota en la foto. El letrero se cambia por la frase que tú elijas.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-alto"
+    ]
+},
+{
+    "id": 55,
+    "name": "Tus Flores Amarillas",
+    "price": 3000,
+    "image": "assets/foto56.webp",
+    "description": "Más de cien rosas amarillas en domo cerrado, con un aro completo de nube alrededor y una tarjeta escrita a mano al frente con la frase que tú elijas, sobre papel blanco en picos. Es el ramo del 21 de septiembre llevado al máximo: no hay forma de que pase desapercibido, ni en la puerta ni en la foto.",
+    "categories": [
+        "flores-amarillas",
+        "mix",
+        "precio-alto"
     ]
 }
 ];

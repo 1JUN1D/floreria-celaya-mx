@@ -792,3 +792,309 @@
     background: var(--catalog-lavender);
     color: var(--catalog-secondary);
 }
+
+/* ===================================
+   CAMPAÑA FLORES AMARILLAS · 21 SEP
+   (sección especial + flyer flotante)
+   Se puede borrar completo al terminar
+   la campaña junto con js/flores-amarillas.js
+   =================================== */
+:root {
+    --fa-yellow: #FFC72C;
+    --fa-yellow-deep: #E9A800;
+    --fa-yellow-soft: #FFF3C4;
+    --fa-yellow-pale: #FFFBEA;
+    --fa-ink: #14101B;
+}
+
+/* Botón de filtro destacado */
+.filter-btn.filter-btn-amarillo {
+    background: linear-gradient(135deg, #FFE27A 0%, var(--fa-yellow) 100%);
+    border-color: var(--fa-yellow-deep);
+    color: var(--fa-ink);
+    font-weight: 600;
+    box-shadow: 0 6px 18px rgba(255, 199, 44, 0.35);
+}
+.filter-btn.filter-btn-amarillo:hover {
+    background: linear-gradient(135deg, #FFD95A 0%, var(--fa-yellow-deep) 100%);
+    color: var(--fa-ink);
+    border-color: var(--fa-yellow-deep);
+}
+.filter-btn.filter-btn-amarillo.active {
+    background: var(--fa-ink);
+    color: var(--fa-yellow);
+    border-color: var(--fa-ink);
+}
+
+/* ---------- Pétalos flotantes decorativos ---------- */
+.fa-petals { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.fa-petals i {
+    position: absolute;
+    display: block;
+    width: 18px; height: 18px;
+    border-radius: 50% 50% 50% 0;
+    background: radial-gradient(circle at 35% 35%, #FFE27A, var(--fa-yellow) 70%);
+    opacity: 0.55;
+    transform: rotate(-30deg);
+    animation: fa-float 9s ease-in-out infinite;
+}
+.fa-petals i:nth-child(1) { left: 4%;  top: 18%; animation-delay: 0s;   width: 14px; height: 14px; }
+.fa-petals i:nth-child(2) { left: 14%; top: 70%; animation-delay: -2s;  width: 22px; height: 22px; }
+.fa-petals i:nth-child(3) { left: 27%; top: 8%;  animation-delay: -4s; }
+.fa-petals i:nth-child(4) { left: 46%; top: 82%; animation-delay: -1s;  width: 12px; height: 12px; }
+.fa-petals i:nth-child(5) { left: 63%; top: 12%; animation-delay: -6s;  width: 26px; height: 26px; }
+.fa-petals i:nth-child(6) { left: 78%; top: 66%; animation-delay: -3s; }
+.fa-petals i:nth-child(7) { left: 90%; top: 22%; animation-delay: -7s;  width: 16px; height: 16px; }
+.fa-petals i:nth-child(8) { left: 96%; top: 78%; animation-delay: -5s;  width: 20px; height: 20px; }
+@keyframes fa-float {
+    0%, 100% { transform: translateY(0) rotate(-30deg); }
+    50%      { transform: translateY(-18px) rotate(10deg); }
+}
+
+/* ---------- Elementos compartidos ---------- */
+.fa-eyebrow {
+    display: inline-flex; align-items: center; gap: 0.55rem;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 0.66rem; font-weight: 600;
+    letter-spacing: 0.34em; text-transform: uppercase;
+    color: #8A6300;
+}
+.fa-eyebrow svg { width: 16px; height: 16px; color: var(--fa-yellow-deep); }
+
+.fa-countdown { margin-top: 1.4rem; }
+.fa-countdown-label {
+    font-size: 0.72rem; font-weight: 600;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: #5A4300; margin: 0 0 0.8rem;
+}
+.fa-countdown-boxes { display: flex; justify-content: center; gap: 0.6rem; flex-wrap: wrap; }
+.fa-unit {
+    min-width: 66px; padding: 0.55rem 0.5rem 0.5rem;
+    background: var(--fa-ink);
+    border-radius: 14px;
+    box-shadow: 0 0 0 1px rgba(255, 199, 44, 0.55), 0 10px 26px rgba(20, 16, 27, 0.25);
+    display: flex; flex-direction: column; align-items: center;
+}
+.fa-unit-num {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.7rem; font-weight: 600; line-height: 1;
+    color: var(--fa-yellow);
+    font-variant-numeric: tabular-nums;
+}
+.fa-unit-txt {
+    font-size: 0.56rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7); margin-top: 0.3rem;
+}
+
+/* ---------- Sección especial arriba del catálogo ---------- */
+.fa-section {
+    position: relative;
+    overflow: hidden;
+    padding: 64px 0 70px;
+    background:
+        radial-gradient(700px 320px at 8% 0%, rgba(255, 199, 44, 0.35), transparent 65%),
+        radial-gradient(600px 300px at 95% 100%, rgba(255, 199, 44, 0.28), transparent 65%),
+        linear-gradient(180deg, var(--fa-yellow-pale) 0%, var(--fa-yellow-soft) 100%);
+    border-top: 1px solid rgba(233, 168, 0, 0.35);
+    border-bottom: 1px solid rgba(233, 168, 0, 0.35);
+}
+.fa-section .container { position: relative; z-index: 1; }
+.fa-head { text-align: center; max-width: 720px; margin: 0 auto 2.6rem; }
+.fa-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    font-weight: 600; line-height: 1.05;
+    color: var(--fa-ink); margin: 0.7rem 0 0.9rem;
+}
+.fa-title::after {
+    content: '';
+    display: block; width: 72px; height: 3px; margin: 1rem auto 0;
+    background: linear-gradient(90deg, var(--fa-yellow-deep), var(--fa-yellow));
+    border-radius: 3px;
+}
+.fa-sub { color: #5B5364; font-size: 1rem; line-height: 1.8; margin: 0; font-weight: 300; }
+
+.fa-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.4rem;
+}
+.fa-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(233, 168, 0, 0.35);
+    box-shadow: 0 2px 4px rgba(20, 16, 27, 0.04), 0 16px 34px rgba(233, 168, 0, 0.16);
+    display: flex; flex-direction: column;
+    transition: transform 0.35s cubic-bezier(0.25, 0.6, 0.3, 1), box-shadow 0.35s;
+}
+.fa-card:hover { transform: translateY(-7px); box-shadow: 0 6px 12px rgba(20, 16, 27, 0.06), 0 28px 54px rgba(233, 168, 0, 0.28); }
+.fa-card-img { position: relative; aspect-ratio: 1 / 1; overflow: hidden; cursor: zoom-in; background: var(--fa-yellow-soft); }
+.fa-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1s cubic-bezier(0.22, 0.6, 0.3, 1); }
+.fa-card:hover .fa-card-img img { transform: scale(1.06); }
+.fa-card-tag {
+    position: absolute; top: 0.7rem; left: 0.7rem;
+    background: var(--fa-yellow); color: var(--fa-ink);
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+    padding: 0.35rem 0.7rem; border-radius: 999px;
+    box-shadow: 0 4px 12px rgba(20, 16, 27, 0.18);
+}
+.fa-card-body { padding: 0.9rem 1rem 1rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
+.fa-card-ref { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: #A8853F; font-weight: 500; }
+.fa-card-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.05rem; font-weight: 600; line-height: 1.25;
+    color: var(--fa-ink); margin: 0;
+}
+.fa-card-foot { margin-top: auto; padding-top: 0.6rem; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.fa-card-price { font-family: 'Playfair Display', Georgia, serif; font-size: 1.2rem; font-weight: 700; color: var(--fa-ink); }
+.fa-card-btn {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    background: #1EBE5D; color: #fff; text-decoration: none;
+    font-size: 0.78rem; font-weight: 600;
+    padding: 0.5rem 0.85rem; border-radius: 999px;
+    transition: background 0.25s, transform 0.25s;
+}
+.fa-card-btn svg { width: 15px; height: 15px; }
+.fa-card-btn:hover { background: #169b4a; transform: translateY(-1px); }
+
+.fa-cta-row { text-align: center; margin-top: 2.4rem; display: flex; flex-direction: column; align-items: center; gap: 0.7rem; }
+.fa-cta {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    background: var(--fa-ink); color: var(--fa-yellow);
+    text-decoration: none; font-weight: 600; font-size: 0.95rem;
+    padding: 0.95rem 1.8rem; border-radius: 999px;
+    box-shadow: 0 0 0 1px rgba(255, 199, 44, 0.6), 0 14px 30px rgba(20, 16, 27, 0.28);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+.fa-cta svg { width: 20px; height: 20px; }
+.fa-cta:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px rgba(255, 199, 44, 0.9), 0 20px 40px rgba(20, 16, 27, 0.32); }
+.fa-cta-note { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: #7A6A3A; }
+
+/* ---------- Flyer flotante ---------- */
+body.fa-flyer-open { overflow: hidden; }
+.fa-flyer {
+    position: fixed; inset: 0; z-index: 10000;
+    background: rgba(14, 10, 19, 0.72);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    display: flex; align-items: center; justify-content: center;
+    padding: 1.2rem;
+    opacity: 0; transition: opacity 0.35s ease;
+}
+.fa-flyer.active { opacity: 1; }
+.fa-flyer-card {
+    position: relative;
+    width: 100%; max-width: 760px; max-height: calc(100vh - 2.4rem);
+    overflow-y: auto;
+    background: #fff; border-radius: 26px;
+    box-shadow: 0 0 0 1px rgba(255, 199, 44, 0.7), 0 40px 90px rgba(0, 0, 0, 0.5);
+    transform: translateY(24px) scale(0.97);
+    transition: transform 0.4s cubic-bezier(0.22, 0.8, 0.3, 1);
+}
+.fa-flyer.active .fa-flyer-card { transform: none; }
+.fa-flyer-close {
+    position: absolute; top: 0.8rem; right: 0.8rem; z-index: 3;
+    width: 38px; height: 38px; border-radius: 50%;
+    border: none; cursor: pointer;
+    background: rgba(20, 16, 27, 0.85); color: #fff;
+    font-size: 1.5rem; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s, transform 0.2s;
+}
+.fa-flyer-close:hover { background: var(--fa-ink); transform: rotate(90deg); }
+.fa-flyer-top {
+    position: relative; overflow: hidden;
+    text-align: center; padding: 2.4rem 1.6rem 1.8rem;
+    background:
+        radial-gradient(500px 240px at 10% 0%, rgba(255, 255, 255, 0.55), transparent 60%),
+        linear-gradient(160deg, #FFE27A 0%, var(--fa-yellow) 60%, #F5B400 100%);
+}
+.fa-flyer-top .fa-eyebrow { color: #5A4300; }
+.fa-flyer-top .fa-eyebrow svg { color: #5A4300; }
+.fa-flyer-top > * { position: relative; z-index: 1; }
+.fa-flyer-top .fa-petals { z-index: 0; }
+.fa-flyer-top .fa-petals i { background: radial-gradient(circle at 35% 35%, #fff, #FFF0B3 70%); opacity: 0.8; }
+.fa-flyer-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.7rem, 4.2vw, 2.5rem);
+    font-weight: 600; line-height: 1.12;
+    color: var(--fa-ink); margin: 0.7rem 0 0.6rem;
+}
+.fa-flyer-sub { color: #4A3A10; font-size: 0.95rem; line-height: 1.7; margin: 0 auto; max-width: 480px; }
+.fa-flyer-top .fa-countdown-label { color: #4A3A10; }
+
+.fa-flyer-tiles {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.8rem;
+    padding: 1.3rem 1.4rem 0.4rem;
+}
+.fa-flyer-tile {
+    text-decoration: none; color: var(--fa-ink);
+    display: flex; flex-direction: column; gap: 0.3rem;
+    border-radius: 14px; overflow: hidden;
+    background: var(--fa-yellow-pale);
+    border: 1px solid rgba(233, 168, 0, 0.3);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+.fa-flyer-tile:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(233, 168, 0, 0.3); }
+.fa-flyer-tile img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+.fa-flyer-tile-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.78rem; font-weight: 600; line-height: 1.2;
+    padding: 0.2rem 0.55rem 0;
+}
+.fa-flyer-tile-price { font-size: 0.82rem; font-weight: 700; color: #8A6300; padding: 0 0.55rem 0.6rem; }
+
+.fa-flyer-actions {
+    display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;
+    padding: 1rem 1.4rem 1.6rem;
+}
+.fa-flyer-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 0.88rem; font-weight: 600;
+    padding: 0.85rem 1.5rem; border-radius: 999px;
+    text-decoration: none; cursor: pointer; border: 1.5px solid transparent;
+    transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+}
+.fa-flyer-btn svg { width: 18px; height: 18px; }
+.fa-flyer-btn-ghost { background: #fff; color: var(--fa-ink); border-color: var(--fa-ink); }
+.fa-flyer-btn-ghost:hover { background: var(--fa-yellow-soft); }
+.fa-flyer-btn-wa { background: #1EBE5D; color: #fff; box-shadow: 0 10px 24px rgba(30, 190, 93, 0.35); }
+.fa-flyer-btn-wa:hover { background: #169b4a; transform: translateY(-2px); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+    .fa-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 768px) {
+    .fa-section { padding: 48px 0 54px; }
+    .fa-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .fa-unit { min-width: 58px; }
+    .fa-unit-num { font-size: 1.4rem; }
+    .fa-flyer { padding: 0.8rem; align-items: flex-end; }
+    .fa-flyer-card { max-height: calc(100vh - 1.6rem); border-radius: 22px; }
+    .fa-flyer-top { padding: 2rem 1.2rem 1.4rem; }
+    .fa-flyer-tiles {
+        display: flex; overflow-x: auto; gap: 0.7rem; padding: 1rem 1rem 0.3rem;
+        scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    }
+    .fa-flyer-tile { flex: 0 0 42%; scroll-snap-align: start; }
+    .fa-flyer-actions { padding: 0.9rem 1rem 1.2rem; }
+    .fa-flyer-btn { flex: 1 1 100%; }
+}
+@media (max-width: 480px) {
+    .fa-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .fa-card-body { padding: 0.7rem 0.75rem 0.8rem; }
+    .fa-card-name { font-size: 0.92rem; }
+    .fa-card-price { font-size: 1.05rem; }
+    .fa-card-btn { padding: 0.45rem 0.7rem; font-size: 0.72rem; }
+    .fa-cta { font-size: 0.85rem; padding: 0.85rem 1.3rem; }
+    .fa-flyer-tile { flex: 0 0 48%; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .fa-petals i { animation: none; }
+    .fa-flyer, .fa-flyer-card, .fa-card, .fa-flyer-tile { transition: none; }
+}
+@media (max-width: 768px) {
+    .fa-card:last-child:nth-child(odd) { grid-column: 1 / -1; width: 100%; max-width: 62%; margin: 0 auto; }
+}
