@@ -648,6 +648,124 @@ const products = [
         "precio-alto"
     ]
 }
+,
+{
+    "id": 56,
+    "name": "Canasta Sol y Fucsia",
+    "price": 562.5,
+    "image": "assets/foto57.webp",
+    "description": "Canasta de mimbre con girasoles, rosas fucsia y blancas, claveles blancos, nube y ramitas de eucalipto, rematada con listones rosa, amarillo y encaje de perlas. Llega lista para poner en la mesa: no necesita florero y el amarillo con fucsia se ve desde la entrada.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "cajas",
+        "mix",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 57,
+    "name": "Canasta Campo Amarillo",
+    "price": 750,
+    "image": "assets/foto58.webp",
+    "description": "Canasta blanca con asa, llena de girasoles, gerberas amarillas y naranjas, crisantemos blancos, orquídeas verdes, botones de santini verde y follaje silvestre. Es un pedazo de campo en una canasta: fresca, abundante y con el amarillo repartido en todo el contorno.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "cajas",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 58,
+    "name": "Girasoles con Fucsia y Lila",
+    "price": 875,
+    "image": "assets/foto59.webp",
+    "description": "Ramo redondo de girasoles al centro con rosas fucsia, claveles blancos y statice morado entre ellos, en papel gris perla en picos. El fucsia y el lila hacen que el girasol brille todavía más: es flor amarilla con carácter, nada plano.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 59,
+    "name": "Girasoles y Hortensia Morada",
+    "price": 625,
+    "image": "assets/foto60.webp",
+    "description": "Ramo de girasoles con hortensia morada, lisianthus lila y blanco, áster morado, solidago amarillo y eucalipto, en papel lila en capas con moño de satín morado. El morado es el complemento exacto del amarillo: juntos se ven el doble de intensos.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 60,
+    "name": "Girasoles y Rosas Rojas",
+    "price": 937.5,
+    "image": "assets/foto61.webp",
+    "description": "Ramo grande de girasoles rodeados de rosas rojas, con manzanilla, nube y follaje verde, en papel blanco con filo rojo y listones rojo y amarillo. Amarillo del 21 de septiembre y rojo de te quiero en un solo ramo: se entiende sin tarjeta.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 61,
+    "name": "Sol de Otoño",
+    "price": 1500,
+    "image": "assets/foto62.webp",
+    "description": "Ramo en domo de girasoles grandes con rosas amarillas entre ellos y manzanilla repartida en todo el contorno, en papel café traslúcido en capas. Todo en amarillo y ámbar: el papel oscuro enmarca el ramo y lo hace ver como un sol en la foto.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "precio-medio"
+    ]
+},
+{
+    "id": 62,
+    "name": "Girasoles y Rosas Amarillas",
+    "price": 1875,
+    "image": "assets/foto63.webp",
+    "description": "Ramo abundante de girasoles y rosas amarillas en domo, con nube y hojas verdes intercaladas, en papel mostaza y blanco en picos. Es amarillo sobre amarillo, trabajado en dos texturas: la flor grande del girasol y la rosa cerrada.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "precio-alto"
+    ]
+},
+{
+    "id": 63,
+    "name": "Canasta de Girasoles",
+    "price": 2000,
+    "image": "assets/foto64.webp",
+    "description": "Canasta grande de mimbre con más de veinte girasoles, eucalipto redondo y nube, rematada con moño dorado. Es un jardín de girasoles completo: ocupa una mesa entera y se ve igual de lleno desde cualquier ángulo.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "cajas",
+        "precio-alto"
+    ]
+},
+{
+    "id": 64,
+    "name": "Maxi Ramo Amarillo Total",
+    "price": 1875,
+    "image": "assets/foto65.webp",
+    "description": "Maxi ramo de girasoles y rosas amarillas con manzanilla y alstroemeria blanca, en papel crema en capas con tarjeta para tu mensaje. Un ramo de dos manos, todo en amarillo: es el regalo del 21 de septiembre que no necesita explicación.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-alto"
+    ]
+}
 ];
 
 // ===== Estado =====

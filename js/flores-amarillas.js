@@ -12,7 +12,8 @@
     'use strict';
 
     // ---------- Configuración ----------
-    var FA_IDS = [51, 52, 53, 54, 55];                    // productos de la campaña
+    var FA_IDS = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]; // productos de la campaña
+    var FA_FLYER_IDS = [55, 60, 63, 57, 59];              // los 5 que se ven en el flyer
     var FA_TARGET = new Date('2026-09-21T00:00:00-06:00'); // llega el 21 (hora Celaya)
     var FA_CUTOFF = new Date('2026-09-21T14:00:00-06:00'); // corte para entrega el mismo día
     var FA_END    = new Date('2026-09-22T00:00:00-06:00'); // después de esto se oculta todo
@@ -128,7 +129,7 @@
                 '<div class="fa-head">' +
                     '<span class="fa-eyebrow">' + SUN_SVG + ' Edición especial · 21 de septiembre ' + SUN_SVG + '</span>' +
                     '<h2 class="fa-title">Flores Amarillas</h2>' +
-                    '<p class="fa-sub">Cinco diseños armados solo para esta fecha. Aparta el tuyo hoy y lo entregamos el 21 en cualquier colonia de Celaya.</p>' +
+                    '<p class="fa-sub">' + faProducts.length + ' diseños armados solo para esta fecha. Aparta el tuyo hoy y lo entregamos el 21 en cualquier colonia de Celaya.</p>' +
                     countdownHTML() +
                 '</div>' +
                 '<div class="fa-grid">' + cards + '</div>' +
@@ -144,7 +145,8 @@
     var flyerEl = null;
     function buildFlyer() {
         if (document.getElementById('fa-flyer')) return;
-        var tiles = faProducts.map(function (p) {
+        var flyerProducts = faProducts.filter(function (p) { return FA_FLYER_IDS.indexOf(p.id) !== -1; });
+        var tiles = flyerProducts.map(function (p) {
             return '<a class="fa-flyer-tile" href="' + waLink(p) + '" target="_blank" rel="noopener">' +
                 '<img src="' + imgSrc(p) + '" alt="' + esc(p.name) + '" loading="lazy">' +
                 '<span class="fa-flyer-tile-name">' + esc(p.name) + '</span>' +
@@ -165,12 +167,12 @@
                     '<div class="fa-petals fa-petals-sm" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>' +
                     '<span class="fa-eyebrow">' + SUN_SVG + ' 21 de septiembre ' + SUN_SVG + '</span>' +
                     '<h2 class="fa-flyer-title">¿Ya apartaste<br>tus flores amarillas?</h2>' +
-                    '<p class="fa-flyer-sub">Cinco diseños especiales, solo para esta fecha. Llegan a domicilio en Celaya.</p>' +
+                    '<p class="fa-flyer-sub">' + faProducts.length + ' diseños especiales, solo para esta fecha. Llegan a domicilio en Celaya.</p>' +
                     countdownHTML() +
                 '</div>' +
                 '<div class="fa-flyer-tiles">' + tiles + '</div>' +
                 '<div class="fa-flyer-actions">' +
-                    '<button class="fa-flyer-btn fa-flyer-btn-ghost" type="button" data-fa-ver>Ver los 5 diseños</button>' +
+                    '<button class="fa-flyer-btn fa-flyer-btn-ghost" type="button" data-fa-ver>Ver los ' + faProducts.length + ' diseños</button>' +
                     '<a class="fa-flyer-btn fa-flyer-btn-wa" href="' + waGeneral() + '" target="_blank" rel="noopener">' + WA_SVG + ' Apartar por WhatsApp</a>' +
                 '</div>' +
             '</div>';
