@@ -768,10 +768,10 @@ const products = [
 },
 {
     "id": 65,
-    "name": "Tres Soles en Cobre",
+    "name": "Soles en Cobre",
     "price": 437.5,
     "image": "assets/foto66.webp",
-    "description": "Tres girasoles grandes con solidago amarillo, nube blanca y helecho, envueltos en papel cobre metalizado en capas y rematados con moño de satín dorado. Es el ramo de girasoles más sencillo del catálogo y el que más se pide: tres flores grandes bien puestas dicen lo mismo que veinte.",
+    "description": "Girasoles grandes con solidago amarillo, nube blanca y helecho, envueltos en papel cobre metalizado en capas y rematados con moño de satín dorado. Es el ramo de girasoles más sencillo del catálogo y el que más se pide: flores grandes bien puestas dicen lo mismo que un ramo enorme.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -780,10 +780,10 @@ const products = [
 },
 {
     "id": 66,
-    "name": "Ocho Rosas Amarillas",
+    "name": "Rosas Amarillas en Papel Claro",
     "price": 250,
     "image": "assets/foto67.webp",
-    "description": "Ocho rosas amarillas abiertas con solidago y nube blanca, en papel amarillo pálido con filo dorado y moño de satín amarillo. Es la manera más accesible de llegar el 21 de septiembre con flores amarillas en la mano: un ramo chico, bien armado, que cabe en cualquier presupuesto.",
+    "description": "Rosas amarillas abiertas con solidago y nube blanca, en papel amarillo pálido con filo dorado y moño de satín amarillo. Es la manera más accesible de llegar el 21 de septiembre con flores amarillas en la mano: un ramo compacto, bien armado, que cabe en cualquier presupuesto.",
     "categories": [
         "flores-amarillas",
         "precio-bajo"
@@ -794,7 +794,7 @@ const products = [
     "name": "Girasol entre Rosas",
     "price": 375,
     "image": "assets/foto68.webp",
-    "description": "Un girasol grande al centro rodeado de doce rosas rosas, con solidago amarillo y eucalipto, en papel rosa con filo dorado en picos y listón rosa. El girasol es uno solo a propósito: al no competir con otros se ve enorme, y el rosa alrededor lo hace más dulce que un ramo todo amarillo.",
+    "description": "Girasol grande al centro rodeado de rosas rosas, con solidago amarillo y eucalipto, en papel rosa con filo dorado en picos y listón rosa. El girasol va al centro a propósito: sin otros que le compitan se ve enorme, y el rosa alrededor lo hace más dulce que un ramo todo amarillo.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -807,7 +807,7 @@ const products = [
     "name": "Girasoles y Rojo en Negro",
     "price": 1250,
     "image": "assets/foto69.webp",
-    "description": "Seis girasoles con doce rosas rojas repartidas entre ellos, nube blanca y follaje verde, en papel negro mate con filo dorado en capas de picos. El negro apaga todo lo que no es flor: el amarillo y el rojo quedan solos en la foto y se ven el doble de encendidos.",
+    "description": "Girasoles con rosas rojas repartidas entre ellos, nube blanca y follaje verde, en papel negro mate con filo dorado en capas de picos. El negro apaga todo lo que no es flor: el amarillo y el rojo quedan solos en la foto y se ven el doble de encendidos.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -820,7 +820,7 @@ const products = [
     "name": "Domo Rojo con Girasoles",
     "price": 1500,
     "image": "assets/foto70.webp",
-    "description": "Domo de cuarenta rosas rojas con brillantes al centro de cada una, seis girasoles hundidos entre ellas y un contorno completo de nube blanca, en papel negro con filo dorado. Los girasoles quedan al ras de las rosas, así que el ramo se lee como una sola superficie roja con soles adentro.",
+    "description": "Domo de rosas rojas con brillantes al centro de cada una, girasoles hundidos entre ellas y un contorno completo de nube blanca, en papel negro con filo dorado. Los girasoles quedan al ras de las rosas, así que el ramo se lee como una sola superficie roja con soles adentro.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -830,10 +830,10 @@ const products = [
 },
 {
     "id": 70,
-    "name": "Tres Girasoles en Rojo",
+    "name": "Girasoles Rodeados de Rojo",
     "price": 1000,
     "image": "assets/foto71.webp",
-    "description": "Tres girasoles grandes al centro rodeados por veinticuatro rosas rojas, con nube blanca y hojas verdes asomando entre ellas, en papel negro. El girasol pone la alegría y las dos docenas de rosas ponen el mensaje: es el ramo del 21 de septiembre para quien también quiere decir te quiero.",
+    "description": "Girasoles grandes al centro rodeados de rosas rojas, con nube blanca y hojas verdes asomando entre ellas, en papel negro. El girasol pone la alegría y las rosas rojas ponen el mensaje: es el ramo del 21 de septiembre para quien también quiere decir te quiero.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -846,7 +846,7 @@ const products = [
     "name": "Jardín de Pie",
     "price": 875,
     "image": "assets/foto72.webp",
-    "description": "Arreglo alto sobre base con dos girasoles, rosas rojas montadas en hileras verticales, lirios amarillos, naranjas y blancos, gerberas fucsia, blanca y amarilla, hojas de palma y follaje seco pintado en azul, con tarjeta para tu mensaje. Llega armado y listo para poner en una mesa: no necesita florero y se ve desde la puerta.",
+    "description": "Arreglo alto sobre base con girasoles, rosas rojas montadas en hileras verticales, lirios amarillos, naranjas y blancos, gerberas fucsia, blanca y amarilla, hojas de palma y follaje seco pintado en azul, con tarjeta para tu mensaje. Llega armado y listo para poner en una mesa: no necesita florero y se ve desde la puerta.",
     "categories": [
         "flores-amarillas",
         "girasoles",
@@ -857,10 +857,10 @@ const products = [
 },
 {
     "id": 72,
-    "name": "Dos Docenas Amarillas",
+    "name": "Ramo Amarillo Clásico",
     "price": 687.5,
     "image": "assets/foto73.webp",
-    "description": "Veinticuatro rosas amarillas abiertas con solidago y nube blanca, en papel amarillo y crema en picos con malla blanca y moño de satín amarillo. Dos docenas de una sola flor y un solo color: es el ramo de flores amarillas más limpio del catálogo, sin nada que le quite protagonismo a la rosa.",
+    "description": "Rosas amarillas abiertas con solidago y nube blanca, en papel amarillo y crema en picos con malla blanca y moño de satín amarillo. Un solo tipo de flor y un solo color: es el ramo de flores amarillas más limpio del catálogo, sin nada que le quite protagonismo a la rosa.",
     "categories": [
         "flores-amarillas",
         "precio-medio"
@@ -868,10 +868,10 @@ const products = [
 },
 {
     "id": 73,
-    "name": "Docena Amarilla",
+    "name": "Rosas Amarillas con Tarjeta",
     "price": 375,
     "image": "assets/foto74.webp",
-    "description": "Doce rosas amarillas con nube blanca, hojas variegadas y helecho, en papel crema con orilla ondulada, moño de satín lila y tarjeta montada en soporte dorado. La docena clásica en amarillo: el papel claro y el moño lila lo hacen ver más fino de lo que cuesta.",
+    "description": "Rosas amarillas con nube blanca, hojas variegadas y helecho, en papel crema con orilla ondulada, moño de satín lila y tarjeta montada en soporte dorado. El ramo clásico de rosas en amarillo: el papel claro y el moño lila lo hacen ver más fino de lo que cuesta.",
     "categories": [
         "flores-amarillas",
         "precio-bajo"
