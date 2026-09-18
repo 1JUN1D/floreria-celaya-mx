@@ -652,7 +652,7 @@ const products = [
 {
     "id": 56,
     "name": "Canasta Sol y Fucsia",
-    "price": 562.5,
+    "price": 1500,
     "image": "assets/foto57.webp",
     "description": "Canasta de mimbre con girasoles, rosas fucsia y blancas, claveles blancos, nube y ramitas de eucalipto, rematada con listones rosa, amarillo y encaje de perlas. Llega lista para poner en la mesa: no necesita florero y el amarillo con fucsia se ve desde la entrada.",
     "categories": [
@@ -660,7 +660,7 @@ const products = [
         "girasoles",
         "cajas",
         "mix",
-        "precio-bajo"
+        "precio-medio"
     ]
 },
 {
@@ -680,7 +680,7 @@ const products = [
 {
     "id": 58,
     "name": "Girasoles con Fucsia y Lila",
-    "price": 875,
+    "price": 1125,
     "image": "assets/foto59.webp",
     "description": "Ramo redondo de girasoles al centro con rosas fucsia, claveles blancos y statice morado entre ellos, en papel gris perla en picos. El fucsia y el lila hacen que el girasol brille todavía más: es flor amarilla con carácter, nada plano.",
     "categories": [
@@ -693,7 +693,7 @@ const products = [
 {
     "id": 59,
     "name": "Girasoles y Hortensia Morada",
-    "price": 625,
+    "price": 900,
     "image": "assets/foto60.webp",
     "description": "Ramo de girasoles con hortensia morada, lisianthus lila y blanco, áster morado, solidago amarillo y eucalipto, en papel lila en capas con moño de satín morado. El morado es el complemento exacto del amarillo: juntos se ven el doble de intensos.",
     "categories": [
@@ -706,14 +706,14 @@ const products = [
 {
     "id": 60,
     "name": "Girasoles y Rosas Rojas",
-    "price": 937.5,
+    "price": 1625,
     "image": "assets/foto61.webp",
     "description": "Ramo grande de girasoles rodeados de rosas rojas, con manzanilla, nube y follaje verde, en papel blanco con filo rojo y listones rojo y amarillo. Amarillo del 21 de septiembre y rojo de te quiero en un solo ramo: se entiende sin tarjeta.",
     "categories": [
         "flores-amarillas",
         "girasoles",
         "rosas-rojas",
-        "precio-medio"
+        "precio-alto"
     ]
 },
 {
@@ -743,7 +743,7 @@ const products = [
 {
     "id": 63,
     "name": "Canasta de Girasoles",
-    "price": 2000,
+    "price": 2500,
     "image": "assets/foto64.webp",
     "description": "Canasta grande de mimbre con más de veinte girasoles, eucalipto redondo y nube, rematada con moño dorado. Es un jardín de girasoles completo: ocupa una mesa entera y se ve igual de lleno desde cualquier ángulo.",
     "categories": [
@@ -764,6 +764,129 @@ const products = [
         "girasoles",
         "mix",
         "precio-alto"
+    ]
+},
+{
+    "id": 65,
+    "name": "Tres Soles en Cobre",
+    "price": 437.5,
+    "image": "assets/foto66.webp",
+    "description": "Tres girasoles grandes con solidago amarillo, nube blanca y helecho, envueltos en papel cobre metalizado en capas y rematados con moño de satín dorado. Es el ramo de girasoles más sencillo del catálogo y el que más se pide: tres flores grandes bien puestas dicen lo mismo que veinte.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 66,
+    "name": "Ocho Rosas Amarillas",
+    "price": 250,
+    "image": "assets/foto67.webp",
+    "description": "Ocho rosas amarillas abiertas con solidago y nube blanca, en papel amarillo pálido con filo dorado y moño de satín amarillo. Es la manera más accesible de llegar el 21 de septiembre con flores amarillas en la mano: un ramo chico, bien armado, que cabe en cualquier presupuesto.",
+    "categories": [
+        "flores-amarillas",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 67,
+    "name": "Girasol entre Rosas",
+    "price": 375,
+    "image": "assets/foto68.webp",
+    "description": "Un girasol grande al centro rodeado de doce rosas rosas, con solidago amarillo y eucalipto, en papel rosa con filo dorado en picos y listón rosa. El girasol es uno solo a propósito: al no competir con otros se ve enorme, y el rosa alrededor lo hace más dulce que un ramo todo amarillo.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "mix",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 68,
+    "name": "Girasoles y Rojo en Negro",
+    "price": 1250,
+    "image": "assets/foto69.webp",
+    "description": "Seis girasoles con doce rosas rojas repartidas entre ellos, nube blanca y follaje verde, en papel negro mate con filo dorado en capas de picos. El negro apaga todo lo que no es flor: el amarillo y el rojo quedan solos en la foto y se ven el doble de encendidos.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 69,
+    "name": "Domo Rojo con Girasoles",
+    "price": 1500,
+    "image": "assets/foto70.webp",
+    "description": "Domo de cuarenta rosas rojas con brillantes al centro de cada una, seis girasoles hundidos entre ellas y un contorno completo de nube blanca, en papel negro con filo dorado. Los girasoles quedan al ras de las rosas, así que el ramo se lee como una sola superficie roja con soles adentro.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 70,
+    "name": "Tres Girasoles en Rojo",
+    "price": 1000,
+    "image": "assets/foto71.webp",
+    "description": "Tres girasoles grandes al centro rodeados por veinticuatro rosas rojas, con nube blanca y hojas verdes asomando entre ellas, en papel negro. El girasol pone la alegría y las dos docenas de rosas ponen el mensaje: es el ramo del 21 de septiembre para quien también quiere decir te quiero.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 71,
+    "name": "Jardín de Pie",
+    "price": 875,
+    "image": "assets/foto72.webp",
+    "description": "Arreglo alto sobre base con dos girasoles, rosas rojas montadas en hileras verticales, lirios amarillos, naranjas y blancos, gerberas fucsia, blanca y amarilla, hojas de palma y follaje seco pintado en azul, con tarjeta para tu mensaje. Llega armado y listo para poner en una mesa: no necesita florero y se ve desde la puerta.",
+    "categories": [
+        "flores-amarillas",
+        "girasoles",
+        "rosas-rojas",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 72,
+    "name": "Dos Docenas Amarillas",
+    "price": 687.5,
+    "image": "assets/foto73.webp",
+    "description": "Veinticuatro rosas amarillas abiertas con solidago y nube blanca, en papel amarillo y crema en picos con malla blanca y moño de satín amarillo. Dos docenas de una sola flor y un solo color: es el ramo de flores amarillas más limpio del catálogo, sin nada que le quite protagonismo a la rosa.",
+    "categories": [
+        "flores-amarillas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 73,
+    "name": "Docena Amarilla",
+    "price": 375,
+    "image": "assets/foto74.webp",
+    "description": "Doce rosas amarillas con nube blanca, hojas variegadas y helecho, en papel crema con orilla ondulada, moño de satín lila y tarjeta montada en soporte dorado. La docena clásica en amarillo: el papel claro y el moño lila lo hacen ver más fino de lo que cuesta.",
+    "categories": [
+        "flores-amarillas",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 74,
+    "name": "Amarillo y Blanco en Menta",
+    "price": 750,
+    "image": "assets/foto75.webp",
+    "description": "Rosas amarillas con gerberas blancas, perritos y alstroemerias blancas, eucalipto y statice, en papel menta y dorado en capas con moño de satín blanco. El blanco y el verde menta bajan la intensidad del amarillo y lo vuelven elegante: es el ramo amarillo para quien no quiere algo estridente.",
+    "categories": [
+        "flores-amarillas",
+        "mix",
+        "precio-medio"
     ]
 }
 ];

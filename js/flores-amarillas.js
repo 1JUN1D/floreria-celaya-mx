@@ -12,7 +12,7 @@
     'use strict';
 
     // ---------- Configuración ----------
-    var FA_IDS = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]; // productos de la campaña
+    var FA_IDS = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]; // productos de la campaña
     var FA_FLYER_IDS = [55, 60, 63, 57, 59];              // los 5 que se ven en el flyer
     var FA_TARGET = new Date('2026-09-21T00:00:00-06:00'); // llega el 21 (hora Celaya)
     var FA_CUTOFF = new Date('2026-09-21T14:00:00-06:00'); // corte para entrega el mismo día
