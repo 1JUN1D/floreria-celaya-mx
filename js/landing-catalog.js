@@ -639,7 +639,7 @@ const products = [
 {
     "id": 55,
     "name": "Tus Flores Amarillas",
-    "price": 3000,
+    "price": 4500,
     "image": "assets/foto56.webp",
     "description": "Más de cien rosas amarillas en domo cerrado, con un aro completo de nube alrededor y una tarjeta escrita a mano al frente con la frase que tú elijas, sobre papel blanco en picos. Es el ramo del 21 de septiembre llevado al máximo: no hay forma de que pase desapercibido, ni en la puerta ni en la foto.",
     "categories": [
@@ -756,7 +756,7 @@ const products = [
 {
     "id": 64,
     "name": "Maxi Ramo Amarillo Total",
-    "price": 1875,
+    "price": 2350,
     "image": "assets/foto65.webp",
     "description": "Maxi ramo de girasoles y rosas amarillas con manzanilla y alstroemeria blanca, en papel crema en capas con tarjeta para tu mensaje. Un ramo de dos manos, todo en amarillo: es el regalo del 21 de septiembre que no necesita explicación.",
     "categories": [
@@ -781,7 +781,7 @@ const products = [
 {
     "id": 66,
     "name": "Rosas Amarillas en Papel Claro",
-    "price": 250,
+    "price": 400,
     "image": "assets/foto67.webp",
     "description": "Rosas amarillas abiertas con solidago y nube blanca, en papel amarillo pálido con filo dorado y moño de satín amarillo. Es la manera más accesible de llegar el 21 de septiembre con flores amarillas en la mano: un ramo compacto, bien armado, que cabe en cualquier presupuesto.",
     "categories": [
@@ -858,7 +858,7 @@ const products = [
 {
     "id": 72,
     "name": "Ramo Amarillo Clásico",
-    "price": 687.5,
+    "price": 950,
     "image": "assets/foto73.webp",
     "description": "Rosas amarillas abiertas con solidago y nube blanca, en papel amarillo y crema en picos con malla blanca y moño de satín amarillo. Un solo tipo de flor y un solo color: es el ramo de flores amarillas más limpio del catálogo, sin nada que le quite protagonismo a la rosa.",
     "categories": [
@@ -869,7 +869,7 @@ const products = [
 {
     "id": 73,
     "name": "Rosas Amarillas con Tarjeta",
-    "price": 375,
+    "price": 450,
     "image": "assets/foto74.webp",
     "description": "Rosas amarillas con nube blanca, hojas variegadas y helecho, en papel crema con orilla ondulada, moño de satín lila y tarjeta montada en soporte dorado. El ramo clásico de rosas en amarillo: el papel claro y el moño lila lo hacen ver más fino de lo que cuesta.",
     "categories": [
