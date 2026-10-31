@@ -888,6 +888,162 @@ const products = [
         "mix",
         "precio-medio"
     ]
+},
+{
+    "id": 75,
+    "name": "Canasta Roja y Negra",
+    "price": 500,
+    "oldPrice": 600,
+    "image": "assets/foto76.webp",
+    "description": "Canasta de mimbre negro con rosas negras, rosas color vino, dalias y crisantemos rojos, espigas doradas, flor de cera y eucalipto. Es el rojo y negro del Día de Muertos en versión elegante: se pone junto a la ofrenda o en la mesa y no necesita florero.",
+    "categories": [
+        "dia-muertos",
+        "cajas",
+        "precio-bajo"
+    ]
+},
+{
+    "id": 76,
+    "name": "Rojo y Negro con Mariposas",
+    "price": 1250,
+    "oldPrice": 1500,
+    "image": "assets/foto77.webp",
+    "description": "Domo de rosas rojas y rosas negras intercaladas, con mariposas metálicas posadas entre ellas, en papel negro y papel estampado blanco y negro en capas de picos. Las mariposas son las almas que regresan en estas fechas, y el rojo sobre negro hace que el ramo se vea desde lejos.",
+    "categories": [
+        "dia-muertos",
+        "rosas-rojas",
+        "precio-medio"
+    ]
+},
+{
+    "id": 77,
+    "name": "Calavera de Rosas Blancas",
+    "price": 2250,
+    "oldPrice": 2700,
+    "image": "assets/foto78.webp",
+    "description": "Domo de rosas blancas marfil con una calavera sonriente dibujada en negro sobre las flores, en papel negro y blanco en capas, rematado con moño de satín negro. Es la calaverita del Día de Muertos hecha ramo: divertida, distinta y con foto asegurada.",
+    "categories": [
+        "dia-muertos",
+        "precio-alto"
+    ]
+},
+{
+    "id": 78,
+    "name": "Rosas Blancas y Murciélagos",
+    "price": 1875,
+    "oldPrice": 2250,
+    "image": "assets/foto79.webp",
+    "description": "Rosas blancas cremosas en ramo abierto, con murciélagos negros saliendo entre las flores y alrededor de todo el contorno. Es el ramo de temporada para quien disfruta el lado divertido de estas fechas: blanco puro con un toque de misterio.",
+    "categories": [
+        "dia-muertos",
+        "precio-alto"
+    ]
+},
+{
+    "id": 79,
+    "name": "Amor Más Allá",
+    "price": 2625,
+    "oldPrice": 3150,
+    "image": "assets/foto80.webp",
+    "description": "Domo de rosas negras con un marco plateado en forma de corazón al centro, contorno de nube azul y mariposas azules, en papel negro traslúcido en picos. Es el ramo romántico del Día de Muertos: el amor que sigue más allá, contado en negro y azul.",
+    "categories": [
+        "dia-muertos",
+        "precio-alto"
+    ]
+},
+{
+    "id": 80,
+    "name": "Cruz de Luz Amarilla",
+    "price": 2000,
+    "oldPrice": 2400,
+    "image": "assets/foto81.webp",
+    "description": "Cruz de pie sobre tripié cubierta de flor blanca, con una cascada de rosas amarillas, crisantemos araña blancos, perritos amarillos, nube y follaje verde. Para llevar al panteón o acompañar la ofrenda el 2 de noviembre: el amarillo ilumina y el blanco honra.",
+    "categories": [
+        "dia-muertos",
+        "funebre",
+        "precio-alto"
+    ]
+},
+{
+    "id": 81,
+    "name": "Cruz Blanca con Rosas Amarillas",
+    "price": 2000,
+    "oldPrice": 2400,
+    "image": "assets/foto82.webp",
+    "description": "Cruz de crisantemos blancos sobre tripié negro, con un ramillete de rosas amarillas, crisantemos amarillos, solidago y hiedra que cae por un costado. Una pieza sobria y luminosa para visitar a quien se recuerda en el Día de Muertos.",
+    "categories": [
+        "dia-muertos",
+        "funebre",
+        "precio-alto"
+    ]
+},
+{
+    "id": 82,
+    "name": "Cruz de Lirios Blancos",
+    "price": 1875,
+    "oldPrice": 2250,
+    "image": "assets/foto83.webp",
+    "description": "Cruz de crisantemos blancos sobre tripié blanco, con un ramillete de lirios orientales blancos abiertos y por abrir. Todo en blanco: es la cruz más serena del catálogo, para un homenaje en paz en el panteón o en casa.",
+    "categories": [
+        "dia-muertos",
+        "funebre",
+        "precio-alto"
+    ]
+},
+{
+    "id": 83,
+    "name": "Rojo, Fucsia y Verde",
+    "price": 1000,
+    "oldPrice": 1200,
+    "image": "assets/foto84.webp",
+    "description": "Rosas rojas con gerberas fucsia, botones de santini verde, hypericum rojo y follaje, en celofán transparente. Colores vivos como los del papel picado: un ramo alegre para la ofrenda o para regalar estos días.",
+    "categories": [
+        "dia-muertos",
+        "rosas-rojas",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 84,
+    "name": "Ramo de Otoño Naranja",
+    "price": 1500,
+    "oldPrice": 1800,
+    "image": "assets/foto85.webp",
+    "description": "Rosas naranjas, lirios naranjas, crisantemos cobre, hypericum verde, eucalipto y helecho, amarrado a mano con listón de satín naranja. Es el naranja del cempasúchil llevado a un ramo fino: cálido, abundante y muy de temporada.",
+    "categories": [
+        "dia-muertos",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 85,
+    "name": "Cajón de Otoño con Girasoles",
+    "price": 812.5,
+    "oldPrice": 975,
+    "image": "assets/foto86.webp",
+    "description": "Cajón de madera rústica con girasoles, rosas durazno, crisantemos naranjas y vino, hypericum rojo, solidago y leucadendron, montado en oasis. Llega listo para poner en la ofrenda: los tonos de otoño combinan con el cempasúchil y las velas.",
+    "categories": [
+        "dia-muertos",
+        "girasoles",
+        "cajas",
+        "mix",
+        "precio-medio"
+    ]
+},
+{
+    "id": 86,
+    "name": "Cempasúchil en Florero",
+    "price": 625,
+    "oldPrice": 750,
+    "image": "assets/foto87.webp",
+    "description": "Flor de cempasúchil con alhelí morado, botones de santini verde y follaje, en florero de cristal color vino amarrado con cordel de yute. Es la flor del Día de Muertos por excelencia, con el morado del luto tradicional: lista para la ofrenda.",
+    "categories": [
+        "dia-muertos",
+        "mix",
+        "precio-medio"
+    ]
 }
 ];
 
@@ -942,12 +1098,13 @@ function renderProducts(){
                 </div>
             </div>
             <div class="product-info">
+                ${product.oldPrice ? `<div class="product-offer-badge">OFERTA</div>` : ''}
                 <div class="product-ref">Ref. ${productCode(product)}</div>
                 <h3 class="product-name">${product.name}</h3>
                 <div class="product-description">${product.description}</div>
                 <div class="product-footer">
                     <div>
-                        <span class="price-label">Desde</span>
+                        <span class="price-label ${product.oldPrice ? 'price-label-old' : ''}">${product.oldPrice ? formatPrice(product.oldPrice) : 'Desde'}</span>
                         <div class="product-price">${formatPrice(product.price)}</div>
                     </div>
                     <a href="https://wa.me/5214615048418?text=${encodeURIComponent('Hola, me interesa el producto: ' + product.name + ' (Ref. ' + productCode(product) + ') - ' + formatPrice(product.price) + ' | Foto: ' + productPhotoUrl(product))}" class="btn-order" target="_blank">

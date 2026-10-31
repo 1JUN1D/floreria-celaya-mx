@@ -847,6 +847,7 @@
 
             <div class="filter-tabs">
                 <button class="filter-tab active" data-filter="todos">Todos</button>
+                <button class="filter-tab filter-tab-muertos" data-filter="dia-muertos">Día de Muertos · Promo</button>
                 <button class="filter-tab" data-filter="coronas">Coronas</button>
                 <button class="filter-tab" data-filter="base">Arreglos de Base</button>
                 <button class="filter-tab" data-filter="blanco">Todo en Blanco</button>
@@ -1095,6 +1096,46 @@
 
         // Catálogo fúnebre — Florería Andrea Celaya. Códigos y fotos del catálogo general.
         const products = [
+        {
+                "id": 80,
+                "code": "080",
+                "name": "Cruz de Luz Amarilla",
+                "price": 2000,
+                "oldPrice": 2400,
+                "image": "/assets/foto81.webp",
+                "categories": [
+                        "dia-muertos",
+                        "coronas"
+                ],
+                "description": "Cruz de pie sobre tripié cubierta de flor blanca, con una cascada de rosas amarillas, crisantemos araña blancos, perritos amarillos, nube y follaje verde. El amarillo ilumina y el blanco honra: es la pieza para acompañar la ofrenda o visitar el panteón el 2 de noviembre.<br><br>Está en precio de promoción por Día de Muertos y la llevamos al panteón, capilla o domicilio de Celaya que nos indiques."
+        },
+        {
+                "id": 81,
+                "code": "081",
+                "name": "Cruz Blanca con Rosas Amarillas",
+                "price": 2000,
+                "oldPrice": 2400,
+                "image": "/assets/foto82.webp",
+                "categories": [
+                        "dia-muertos",
+                        "coronas"
+                ],
+                "description": "Cruz de crisantemos blancos sobre tripié negro, con un ramillete de rosas amarillas, crisantemos amarillos, solidago y hiedra que cae por un costado. Una pieza sobria y luminosa para visitar a quien se recuerda en el Día de Muertos.<br><br>Está en precio de promoción por Día de Muertos y la llevamos al panteón, capilla o domicilio de Celaya que nos indiques."
+        },
+        {
+                "id": 82,
+                "code": "082",
+                "name": "Cruz de Lirios Blancos",
+                "price": 1875,
+                "oldPrice": 2250,
+                "image": "/assets/foto83.webp",
+                "categories": [
+                        "dia-muertos",
+                        "coronas",
+                        "blanco"
+                ],
+                "description": "Cruz de crisantemos blancos sobre tripié blanco, con un ramillete de lirios orientales blancos abiertos y por abrir. Todo en blanco: es la cruz más serena del catálogo, para un homenaje en paz en el panteón o en casa.<br><br>Está en precio de promoción por Día de Muertos y la llevamos al panteón, capilla o domicilio de Celaya que nos indiques."
+        },
                 {
                         "id": 24,
                         "code": "024",
@@ -1224,14 +1265,14 @@
                 <div class="product-card">
                     <div class="product-image-container">
                         <img src="${product.image}" alt="${product.name} - corona y arreglo fúnebre en Celaya | Florería Andrea" class="product-image" loading="lazy">
-                        <span class="discount-badge">#${product.code}</span>
+                        <span class="discount-badge">#${product.code}</span>${product.oldPrice ? `<span class="discount-badge" style="left:auto;right:12px;background:#E0217A;color:#fff">-${Math.round((1-product.price/product.oldPrice)*100)}% Promo</span>` : ''}
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
                         <div class="product-description">${product.description}</div>
                         <div class="product-footer">
                             <div>
-                                <span class="price-label">${(product.price === null || product.price === undefined) ? 'Valor' : 'Desde'}</span>
+                                <span class="price-label" ${product.oldPrice ? 'style="text-decoration:line-through;letter-spacing:0;text-transform:none;font-size:.85rem"' : ''}>${product.oldPrice ? formatPrice(product.oldPrice) : ((product.price === null || product.price === undefined) ? 'Valor' : 'Desde')}</span>
                                 <div class="product-price">${formatPrice(product.price)}</div>
                             </div>
                             <a href="${wa}"
