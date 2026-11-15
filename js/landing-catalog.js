@@ -551,10 +551,9 @@ const products = [
     "name": "Ramo Chico Variado",
     "price": 500,
     "image": "assets/foto49.webp",
-    "description": "Ramo alto con girasoles, tulipanes rosas, claveles, hortensia verde, perritos rosas, eucalipto y nube, en papel blanco traslúcido. Lleva tulipán y hortensia, que son las dos flores que normalmente disparan el precio de un ramo, y aun así se queda en quinientos.",
+    "description": "Ramo alto con girasoles, claveles, hortensia verde, perritos rosas, eucalipto y nube, en papel blanco traslúcido. Lleva hortensia, que es de las flores que normalmente disparan el precio de un ramo, y aun así se queda en quinientos.",
     "categories": [
         "girasoles",
-        "tulipanes",
         "mix",
         "precio-medio"
     ]
